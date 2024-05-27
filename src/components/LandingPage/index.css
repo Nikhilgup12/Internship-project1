@@ -1,0 +1,324 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+.landing-main-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    /* justify-content: center; */
+    min-height: 100vh; 
+} 
+.dental-main-container{
+    background-image: url("https://res.cloudinary.com/di9qg5ka6/image/upload/v1716794360/Group_44_whej2k.png"); 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between; 
+    width: 100%; 
+    min-height:550px;
+    background-position: center; 
+    /* max-width: 1525px;
+    min-height:500px;
+    top: -64px; 
+    left: -25px; */
+} 
+.dental-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width:100%;
+    max-width: 850px;
+    text-align: center;
+   
+} 
+.dental-request-btn{
+    margin-top: 40px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: transparent;
+    border: 2px solid #FDF9EE;
+    border-radius: 10px;
+    opacity: 0px;
+    padding:10px 25px 10px 25px;
+    color: #FDF9EE; 
+} 
+.dental-heading{
+    color: #FDF9EE; 
+    font-family: Poppins; 
+    font-size: 70px;
+    Line-height:70px;
+
+}
+.button-request-para{
+    padding-left: 20px;
+} 
+.dental-icon-container{
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 100%;
+    max-width: 150px;
+}
+
+@media screen and (max-width:767px){
+    .dental-container{
+        width: 100%;
+        max-width: 400px;
+        padding:20px;
+    } 
+    .dental-heading{
+        font-size:35px;
+        line-height: 45px;
+    }
+} 
+
+.booking-appointment-container{
+    background-color:#FDF9EE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+} 
+.booking-section-button{
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-between;
+   width: 100%;
+   max-width: 600px;
+   padding:10px;
+} 
+.booking-appointment-logo{
+    width:100%;
+    max-width: 180px;
+    margin-bottom:20px;
+   
+} 
+.booking-appointment-logos{
+    width:100%;
+    max-width: 180px;
+    margin-bottom:20px;
+    min-height: 50px;
+} 
+@media  screen and (max-width:767px) {
+    .booking-section-button{
+        max-width: 400px;
+        justify-content: center;
+    }
+    .booking-appointment-logo{
+        padding-right: 20px;
+    }
+} 
+
+.dental-checking-container{
+    background-color:#FFFFFF;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+
+} 
+.checking-container{
+    margin-top:20px;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content:center;
+   width: 100%;
+   padding:10px;
+} 
+.checking-image{
+    padding-right: 30px;
+    margin-bottom: 20px;
+} 
+@media screen and (max-width:767px){
+    .checking-image{
+        padding-bottom: 20px;
+        padding-right: 0px;
+        
+    }
+   
+} 
+.about-main-container{
+    background-color:#A0C1BA; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px;
+    width: 100%;
+    margin-top: 20px;
+} 
+.about-container{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content:space-between; 
+    width: 100%; 
+    max-width: 1050px;
+    padding: 20px;
+} 
+.about-image{
+    width: 100%;
+    max-width: 320px;
+} 
+.about-info-container{
+    width: 100%; 
+    max-width: 600px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+} 
+.about-heading{
+    font-family:Poppins;
+    color: #FDF9EE; 
+    font-size: 70px; 
+    Line-height:108px;
+} 
+.about-para{
+    color:#000000; 
+    font-size: 18px; 
+    font-family: Poppins; 
+    line-height:31.32px;
+} 
+@media screen and (max-width:767px){
+    .about-container{
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+} 
+@media screen and (max-width:991px){
+    .about-info-container{
+        width: 100%; 
+        max-width: 450px;
+        display: flex; 
+        flex-direction: column; 
+        align-items: flex-start; 
+    } 
+}  
+@media screen and (min-width:768px) and (max-width:990px){
+    .about-info-container{
+        width: 100%; 
+        max-width: 400px;
+        display: flex; 
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding:20px;
+    } 
+    .about-heading{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .about-para{
+        font-size: 15px;
+        line-height:20px;
+    }
+} 
+.carousel-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Background color */
+    padding: 30px; /* Padding around the carousel */
+    width: 100%;
+}
+
+.carousel-container {
+    max-width:700px; /* Max width of the carousel */
+    width: 100%;
+    padding-bottom: 20px;
+}
+.carousel-image {
+    width: 100%; /* Make images responsive */
+    max-width: 400px; /* Max width of individual carousel images */
+    border-radius: 8px; /* Add some border radius for rounded corners */
+}
+.advanced-technology-container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    background-color: #FFFFFF;
+    margin-top:20px;
+
+} 
+.technology-container{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top:20px;
+} 
+.technology-image-container{
+    padding-left: 0px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: center;
+    list-style-type:none; 
+    margin-top:20px;
+    width:100%;
+    max-width:900px;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+.technology-image{
+    padding-right: 20px;
+    padding-bottom: 10px;
+    width: 100%; 
+    max-width: 200px;
+}
+.technology-heading{
+    font-family: Poppins; 
+    font-size: 36px;
+    line-height:20px;
+} 
+.fotter-main-container{
+    display: flex; 
+    flex-direction:row; 
+    justify-content:space-between; 
+    align-items: center;
+    background-color:#A0C1BA; 
+    width: 100%; 
+    padding:25px;
+} 
+@media screen and (max-width:767px){
+    .fotter-main-container{
+        display: flex; 
+        flex-direction: column; 
+        
+    }
+    .fotter-container{
+        margin-bottom:20px;
+        display: flex; 
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        max-width: 1000px;
+       
+    }
+}
+.fotter-container{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 100%;
+    max-width: 450px;
+} 
+.fotter-item{
+    padding-right: 10px;
+}

@@ -1,0 +1,91 @@
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 11110px; 
+    padding:3px;
+    background: #FDF9EE;
+}
+.nav-content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 95%;
+    max-width: 11110px;
+ 
+    padding:10px;
+} 
+
+.nav-item-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0px;
+    width: 100%;
+    max-width:500px;
+   
+}
+.nav-icon-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0px;
+    width: 100%;
+    max-width: 350px;
+   
+}
+.nav-section-mobile-list{
+   background-color: transparent;
+   border-width: 0px; 
+   outline: none;
+}
+.nav-logo{
+    width: 100%;
+    max-width: 200px;
+} 
+.nav-logo-mobile{
+    width: 100%;
+    max-width: 100px;
+}
+@media screen and (max-width:767px){
+    .nav-item-list{
+        display: none;
+    }
+    .nav-secton-list{
+        display: none;
+    }
+    .nav-content{
+        width:85%;
+        justify-content: space-between;
+    }
+    .nav-icon-list{
+        display: none;
+    }
+    .nav-mobile-logo{
+        display: none;
+    }
+} 
+@media screen and (min-width:768px){
+    .nav-logo-mobile{
+        display: none;
+    }
+    .nav-section-mobile-list{
+        display: none;
+    }
+} 
+
+.book-appointment-logo{
+    width:100%;
+    max-width: 180px;
+}
+.nav-item{
+    font-size: 20px; 
+    font-family:Roboto;
+}
