@@ -99,7 +99,6 @@ const LandingPage =()=>{
                 <div>
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" /> 
                 </div>
-            
             </div>
 
          </div>
