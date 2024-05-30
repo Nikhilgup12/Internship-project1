@@ -8,9 +8,9 @@ const CrownBridge =()=>{
         <div className="landing-main-container">
             <div className="cosmetic-main-container">
                 <div className="cosmetic-container">
-                    <h1 className="cosmetic-heading"> Cosmetic Dentistry at Tech Smiles </h1>
-                    <p className="cosmetic-para"> Crafting Your Dream Smile in Delhi/NCR </p> 
-                    <p className="cosmetic-description"> Welcome to Tech Smiles Dentistry & Facial Esthetics, where we believe that a beautiful smile is the key to unlocking a world of confidence and opportunity. Our cosmetic dentistry services in Delhi/NCR are designed to enhance your natural beauty and give you the smile you’ve always dreamed of. </p> 
+                    <h1 className="cosmetic-heading"> Crown & Bridges </h1>
+                    <p className="cosmetic-para">  Restorative Excellence at Tech Smiles Dentistry </p> 
+                    <p className="cosmetic-description"> At Tech Smiles Dentistry & Facial Esthetics, we specialize in restoring smiles with the highest quality crown and bridge work. Our expert team in Delhi/NCR is dedicated to providing you with restorative treatments that not only improve the function of your teeth but also enhance their aesthetic appeal. </p> 
                 </div>
                 <div>
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716869453/unsplash_7lBJaJpS3z4_gvvi30.png" className="cosmetic-image"/> 
@@ -53,28 +53,28 @@ const CrownBridge =()=>{
                         </div>
                     </div>
                     <div className="crown-metal-container">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879432/Image_wtxrlh.png" className="crown-metal-image"/> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879379/Image_1_ndmfgt.png" className="crown-metal-image"/> 
                         <div className="crwon-metal-info-container">
-                        <h1 className="crown-metal-heading"> Metal Crowns </h1> 
-                        <p className="crown-metal-para"> Metal crowns are known for their durability and high strength, making them ideal for restoring back teeth where the chewing pressure is greatest. They require less tooth removal than other types of crowns and rarely chip or break1.</p>
+                        <h1 className="crown-metal-heading"> Ceramic Crowns </h1> 
+                        <p className="crown-metal-para"> Ceramic crowns are popular for their natural color and texture, which closely mimic that of your own teeth. They are highly biocompatible and an excellent choice for front teeth restorations2..</p>
                         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879359/Frame_37_jpusq5.png" className="crown-metal-learn-image"/> 
                         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800189/Frame_5_2_dcdrnx.png" className="crown-metal-opp-image"/> 
                         </div>
                     </div>
                     <div className="crown-metal-container">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879432/Image_wtxrlh.png" className="crown-metal-image"/> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879366/Image_2_mmwoza.png" className="crown-metal-image"/> 
                         <div className="crwon-metal-info-container">
-                        <h1 className="crown-metal-heading"> Metal Crowns </h1> 
-                        <p className="crown-metal-para"> Metal crowns are known for their durability and high strength, making them ideal for restoring back teeth where the chewing pressure is greatest. They require less tooth removal than other types of crowns and rarely chip or break1.</p>
+                        <h1 className="crown-metal-heading"> PFM (Porcelain Fused to Metal) Crowns</h1> 
+                        <p className="crown-metal-para"> PFM crowns offer the strength of metal with the aesthetic of porcelain. They are a great choice for both front and back teeth, providing a good balance between durability and appearance3. </p>
                         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879359/Frame_37_jpusq5.png" className="crown-metal-learn-image"/> 
                         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800189/Frame_5_2_dcdrnx.png" className="crown-metal-opp-image"/> 
                         </div>
                     </div>
                     <div className="crown-metal-container">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879432/Image_wtxrlh.png" className="crown-metal-image"/> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879362/Close_up_on_dentist_instruments_u2nh0g.png" className="crown-metal-image"/> 
                         <div className="crwon-metal-info-container">
-                        <h1 className="crown-metal-heading"> Metal Crowns </h1> 
-                        <p className="crown-metal-para"> Metal crowns are known for their durability and high strength, making them ideal for restoring back teeth where the chewing pressure is greatest. They require less tooth removal than other types of crowns and rarely chip or break1.</p>
+                        <h1 className="crown-metal-heading">Zirconia Crowns </h1> 
+                        <p className="crown-metal-para"> Zirconia crowns are the strongest type of ceramic crowns available. They are highly durable and have excellent biocompatibility. Zirconia crowns are suitable for both front and back teeth restorations4. </p>
                         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879359/Frame_37_jpusq5.png" className="crown-metal-learn-image"/> 
                         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800189/Frame_5_2_dcdrnx.png" className="crown-metal-opp-image"/> 
                         </div>
@@ -84,7 +84,7 @@ const CrownBridge =()=>{
             <div className="cosmetic-bottom-main-container">
                 <div className="cosmetic-bottom-container">
                     <p className="bottom-para">At Tech Smiles Dentistry & Facial Esthetics, we are committed to using advanced technology and materials to provide you with the best dental care. Our crown and bridge treatments are tailored to meet your specific needs, ensuring a perfect blend of function and aesthetics.. </p>
-                    <p className="botton-span-para"> Ready to restore your smile? . </p> 
+                    <p className="botton-span-crown-para"> Ready to restore your smile? . </p> 
                 </div>
             </div>
             <div className="fotter-main-container">

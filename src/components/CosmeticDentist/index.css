@@ -46,12 +46,13 @@
 .cosmetic-para{
     font-family: Poppins; 
     font-size:18px;
-    line-height:50px;
+    line-height: 30px;
 } 
 .cosmetic-description{
     font-family: Poppins; 
     font-size:18px;
     line-height:20px;
+    padding-top:10px;
 } 
 @media screen and (max-width:767px){
     .cosmetic-container{
