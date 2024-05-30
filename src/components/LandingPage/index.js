@@ -1,17 +1,28 @@
+import React from "react"
+
+import { motion} from "framer-motion";
+
+import { fadeIn } from "../../variants";
+
+import './index.css';
 import Navbar from "../Navbar"
 import Slider from 'react-slick'
 
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import "./index.css" 
+
 
 const LandingPage =()=>{
+   
     return (
         <>
          <Navbar /> 
+        
          <div className="landing-main-container">
-            <div className="dental-main-container">
-                <div className="dental-container">
+            <div 
+            className="dental-main-container">
+                <div
+                className="dental-container">
                     <h1 className="dental-heading"> Discover a world where dental excellence meets facial artistry </h1> 
                     <button className="dental-request-btn">
                         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716794382/Vector_lisqvz.png" /> 
@@ -19,13 +30,14 @@ const LandingPage =()=>{
                     </button>
                 </div>
                 <div className="dental-icon-container">
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798342/Group_29_ojuwub.png" /> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798605/Group_eohm2k.png" /> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798610/linkedin_black.1_gujvxm.png" /> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798613/youtube_color.1_v6eavf.png" /> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798618/instagram_black.1_nxeb7h.png" /> 
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798342/Group_29_ojuwub.png" className="social-icon"/> 
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798605/Group_eohm2k.png" className="social-icon-twitter"/> 
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798610/linkedin_black.1_gujvxm.png" className="social-icon"/> 
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798613/youtube_color.1_v6eavf.png" className="social-icon"/> 
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798618/instagram_black.1_nxeb7h.png" className="social-icon"/> 
                 </div>
             </div>
+            
             <div className="booking-appointment-container">
                 <div className="booking-section-button">
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800161/Frame_3_aczcu8.png"  className="booking-appointment-logo"/> 
@@ -34,15 +46,23 @@ const LandingPage =()=>{
                 </div>
             </div>
             <div className="dental-checking-container">
-                <div className="checking-container">
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803054/8_kg8ljm.png" className="checking-image"/>  
+                <div
+                className="checking-container">
+                    <img 
+                    src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803054/8_kg8ljm.png" className="checking-image"/>  
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803060/9_uhythc.png"  className="checking-image" /> 
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803068/10_s16pvz.png" className="checking-images"/> 
                 </div>
             </div>  
-            <div className="about-main-container">
+            <div
+                    className="about-main-container">
                 <div className="about-container">
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716809273/Group_1_vuhw7m.png" className="about-image"/> 
+                    <motion.img
+                            variants={fadeIn("up", 0.2)} 
+                            initial="hidden"
+                            whileInView={"show"} 
+                            viewport={{once:false,amount:0.7}}
+                            src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716809273/Group_1_vuhw7m.png" className="about-image"/> 
                     <div className="about-info-container">
                         <h1 className="about-heading"> About us  </h1> 
                         <p className="about-para"> standard dummy text ever since the 1500s, when an unknown printer took a 
@@ -57,7 +77,8 @@ const LandingPage =()=>{
                 </div>
             </div>
             <div className="carousel-main-container">
-                <div className="carousel-container">
+                <div
+                className="carousel-container">
                     <Slider slidesToShow={2} dots={true}>
                         <div className="carouse-image-container">
                             <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716818529/Group_15_nkmwym.png" className="carousel-image"/> 
@@ -73,19 +94,31 @@ const LandingPage =()=>{
             </div>
             <div className="advanced-technology-container">
                 <div className="technology-container">
-                    <h1 className="technology-heading"> Advanced technology  </h1>
-                    <ul className="technology-image-container">
+                    <motion.h1 
+                      variants={fadeIn("up",0.2)}
+                      initial="hidden"
+                      whileInView={"show"} 
+                      viewport={{once:false,amount:0.7}}
+                    className="technology-heading"> Advanced technology  </motion.h1>
+                    <motion.ul 
+                       variants={fadeIn("left",0.2)}
+                       initial="hidden"
+                       whileInView={"show"} 
+                       viewport={{once:false,amount:0.7}}
+                    className="technology-image-container">
                         <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821962/Group_35_omdaot.png" className="technology-image"/> </li>
                         <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821978/Group_33_vezqku.png" className="technology-image"/> </li>
                         <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821985/Group_34_suumxj.png" className="technology-image"/> </li>
                         <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821991/Frame_75_f6x4wd.png" className="technology-image"/> </li>
                         <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822007/Frame_81_a5jpqg.png" className="technology-image"/> </li>
                         <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822019/Group_42_zlmhft.png" className="technology-image"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822047/Frame_78_aowdrw.png" className="technology-image"/> </li> 
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716960861/Group_40_xnfeqo.png" className="technology-image"/> </li>
                         <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822024/Group_41_bg4y9y.png" className="technology-image"/> </li>
                         <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822028/Group_37_i2efmt.png" className="technology-image"/> </li>
                         <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822033/Group_38_ivucnp.png" className="technology-image"/> </li>
                         <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822038/Frame_80_pdyuay.png" className="technology-image"/> </li>
-                    </ul>
+                    </motion.ul>
                 </div>
             </div> 
             <div className="fotter-main-container">
@@ -102,6 +135,7 @@ const LandingPage =()=>{
             </div>
 
          </div>
+         
         </>
     )
 } 

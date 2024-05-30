@@ -1,4 +1,4 @@
-
+/* 
 .nav-container{
     display: flex;
     flex-direction: row;
@@ -15,7 +15,6 @@
     align-items: center;
     width: 95%;
     max-width: 11110px;
- 
     padding:10px;
 } 
 
@@ -86,6 +85,158 @@
     max-width: 180px;
 }
 .nav-item{
-    font-size: 20px; 
-    font-family:Roboto;
+    font-size:18px; 
+    font-family:Poppins;
+    color:#1E1E1E;
+    font-weight: 400px;
+} */ 
+
+
+/* Existing CSS with enhancements and fixes */
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 11110px; 
+    padding: 3px;
+    background: #FDF9EE;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a professional look */
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    max-width: 11110px;
+    padding: 10px;
+}
+
+.nav-item-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.nav-icon-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.nav-section-mobile-list {
+    background-color: transparent;
+    border-width: 0px; 
+    outline: none;
+    cursor: pointer; /* Add cursor pointer */
+}
+
+.nav-logo {
+    width: 100%;
+    max-width: 200px;
+}
+
+.nav-logo-mobile {
+    width: 100%;
+    max-width: 100px;
+}
+
+.book-appointment-logo {
+    width: 100%;
+    max-width: 180px;
+}
+
+.nav-item {
+    font-size: 18px; 
+    font-family: Poppins, sans-serif;
+    color: #1E1E1E;
+    font-weight: 400;
+    padding: 10px 0; /* Add padding for better click area */
+    text-decoration: none; /* Ensure no underline */
+    position: relative; /* For pseudo-element positioning */
+    border-bottom: none; /* Remove any default border */
+}
+
+.nav-item::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #007BFF; /* Underline color on hover */
+    transition: width 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-item:hover::after {
+    width: 100%; /* Expand underline on hover */
+}
+
+.nav-item:hover {
+    color: #007BFF; /* Add hover effect */
+}
+
+@media screen and (max-width: 767px) {
+    .nav-item-list {
+        display: none;
+    }
+    .nav-secton-list {
+        display: none;
+    }
+    .nav-content {
+        width: 85%;
+        justify-content: space-between;
+    }
+    .nav-icon-list {
+        display: none;
+    }
+    .nav-mobile-logo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav-logo-mobile {
+        display: none;
+    }
+    .nav-section-mobile-list {
+        display: none;
+    }
+  
+} 
+@media screen and (min-width:767px) and (max-width:991px){
+    .nav-item-list{
+        max-width:500px;
+        margin:10px;
+    }
+    .nav-item{
+        font-size: 13px;
+        padding-right:0px;
+    }
+    .nav-logo{
+        max-width:270px;
+        padding-left:0px;
+    }
+    .nav-icon-list{
+        max-width:260px;
+        align-items: center;
+      
+       
+    }
+    .book-appointment-logo{
+        max-width: 140px;
+    }
 }

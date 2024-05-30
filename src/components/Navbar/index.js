@@ -30,12 +30,10 @@ class Navbar extends Component{
                     <li className="nav-item"> Facial Aesthetics   </li>
                 </ul> 
                 <ul className="nav-icon-list">
-
                     <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716792164/Frame_5_brxnq4.png" className="book-appointment-logo"/> </li> 
                     <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716792258/ic_baseline-call_hgiarf.png" /> </li> 
                     <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716792250/mingcute_whatsapp-line_zvktiy.png" /> </li>  
                 </ul>
-        
             <div> 
                 <button onClick={this.onToggleNavbar}  className="nav-section-mobile-list"> <GiHamburgerMenu size={20}/> </button>
             </div>

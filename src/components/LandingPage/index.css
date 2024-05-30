@@ -42,35 +42,47 @@
     justify-content: space-between;
     background-color: transparent;
     border: 2px solid #FDF9EE;
-    border-radius: 10px;
+    border-radius:30px;
     opacity: 0px;
-    padding:10px 25px 10px 25px;
+    padding:17px 35px 17px 35px;
     color: #FDF9EE; 
 } 
 .dental-heading{
     color: #FDF9EE; 
-    font-family: Poppins; 
-    font-size: 70px;
+    font-family: "Poppins", sans-serif;
+    font-size:60px;
     Line-height:70px;
 
 }
 .button-request-para{
     padding-left: 20px;
+    font-size: 15px;
 } 
 .dental-icon-container{
     align-self: flex-end;
     display: flex;
     justify-content: space-between; 
+    align-items: center;
     margin-bottom: 20px;
     margin-right: 20px;
     width: 100%;
-    max-width: 150px;
+    max-width: 190px;
+    min-height: 26px;
+    
 }
-
+.social-icon{
+    width:24px;
+    height:24px;
+}
+.social-icon-twitter{
+    width:18px;
+    height:18px;
+    
+}
 @media screen and (max-width:767px){
     .dental-container{
         width: 100%;
-        max-width: 400px;
+        max-width:400px;
         padding:20px;
     } 
     .dental-heading{
@@ -188,13 +200,19 @@
     color:#000000; 
     font-size: 18px; 
     font-family: Poppins; 
-    line-height:31.32px;
+    line-height:25px;
 } 
 @media screen and (max-width:767px){
     .about-container{
         display: flex; 
         flex-direction: column; 
         align-items: center; 
+        width:100%;
+    }
+    .about-heading{
+        padding-top: 20px;
+        line-height: 60px;
+        font-size: 40px;
     }
 
 } 
@@ -224,7 +242,15 @@
         font-size: 15px;
         line-height:20px;
     }
+    .dental-heading{
+        font-size:45px;
+        line-height:60px;
+    }
+    .dental-container{
+        max-width:600px;
+    }
 } 
+/* Carousel Container */
 .carousel-main-container {
     display: flex;
     flex-direction: column;
@@ -233,17 +259,75 @@
     background-color: #f0f0f0; /* Background color */
     padding: 30px; /* Padding around the carousel */
     width: 100%;
+    border:none;
+    box-shadow: none;
+    
 }
 
 .carousel-container {
-    max-width:700px; /* Max width of the carousel */
+    max-width: 700px; /* Max width of the carousel */
     width: 100%;
     padding-bottom: 20px;
+    border: none;
+    box-shadow: none;
+    
+    align-items: center;
 }
+
+/* Carousel Images */
 .carousel-image {
     width: 100%; /* Make images responsive */
     max-width: 400px; /* Max width of individual carousel images */
     border-radius: 8px; /* Add some border radius for rounded corners */
+    margin: 0 10px; /* Add margin for spacing */
+    border:none;
+    box-shadow: none;
+}
+
+/* Arrow Styling */
+.slick-prev {
+    color: #000000 !important; /* Make arrows black */
+    z-index: 1; /* Ensure arrows are on top of images */
+    margin: 0 -20px; /* Add margin for spacing around arrows */
+}
+.slick-next{
+    margin:0 -40px;
+    z-index: 1;
+    color: #000000 !important;
+}
+.slick-prev:hover, .slick-next:hover {
+    color: #000000 !important; /* Maintain black color on hover */
+}
+
+/* Dots Styling */
+.slick-dots li button:before {
+    color: #000000; /* Change dots to black */
+}
+@media screen and (max-width:767px){
+    .carousel-container{
+        max-width: 300px;
+        background-color: aqua;
+        margin: auto;
+        background-position: center;
+    }
+    .carousel-image{
+        max-width: 280px;
+    }
+    .slick-prev {
+        color: #000000 !important; /* Make arrows black */
+        z-index: 1; /* Ensure arrows are on top of images */
+        margin: 0 -15px; /* Add margin for spacing around arrows */
+    }
+    .slick-next{
+        margin:0 -15px;
+        z-index: 1;
+        color: #000000 !important;
+    }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+    .carousel-container{
+        max-width:500px;
+    }
 }
 .advanced-technology-container{
     display: flex;
@@ -286,7 +370,18 @@
     font-family: Poppins; 
     font-size: 36px;
     line-height:20px;
+    font-weight:700;
+    text-align: center;
 } 
+@media screen and (max-width:767px){
+    .technology-heading{
+        line-height:35px;
+        font-size: 25px;
+    }
+    .technology-image{
+        max-width: 100px;
+    }
+}
 .fotter-main-container{
     display: flex; 
     flex-direction:row; 
@@ -322,3 +417,50 @@
 .fotter-item{
     padding-right: 10px;
 }
+
+/* Scroll transition for containers */
+/* .landing-main-container {
+    transition: transform 0.5s ease-in-out;
+} */
+
+/* Animation for text */
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Animation for container */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply animation to text elements */
+.dental-heading, .about-heading, .technology-heading {
+    animation: slideInFromLeft 1s ease-in-out;
+}
+
+/* Apply animation to all containers */
+.dental-main-container, .booking-appointment-container, .dental-checking-container, .about-main-container, .carousel-main-container, .advanced-technology-container, .fotter-main-container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Hover effect for container */
+.dental-main-container:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+}
+.checking-image:hover, .checking-images:hover{
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+} 

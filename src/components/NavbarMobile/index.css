@@ -19,6 +19,7 @@
   padding: 15px;
   background-color: #f4f4f4;
   border-bottom: 1px solid #ddd;
+  width:100%;
 } 
 .nav-profile{
     width: 100%;
@@ -36,7 +37,7 @@
   align-items: flex-start;
 
 }
-.nav-item{
+.nav-mobile-item{
   display: flex;
   padding: 25px 12px;
   border-bottom: 1px solid #ddd;
@@ -47,58 +48,4 @@
   font-family: Roboto;
   padding-left: 10px;
   color: #181818;
-}
-.logout-container{
-  padding:8px 12px;
-}
-.nav-logout-btn{
-  padding: 10px 12px;
-  border-width: 1px;
-  border-style: solid;
-  background-color: transparent;
-  border-radius: 5px;
-  border-color: #3b82f6;
-  color: #3b82f6;
-  font-family: Roboto;
-  font-weight: bold;
-  cursor: pointer;
-  outline: none;
-}
-.nav-logout-container{
-  background-color: #ebebeb;
-  padding: 30px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
 } 
-.nav-logout-heading{
-  font-size: 16px;
-  font-family: Roboto;
-  padding-bottom: 20px;
-  color: #00306e;
-} 
-.logout-option-container{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 175px;
-} 
-.logout-cancel-btn{
-  color: #475569;
-  border: 1px solid #475569;
-  border-radius: 5px;
-  background-color: #f1f1f1;
-  padding: 10px 15px 10px 15px;
-  cursor: pointer;
-} 
-.logout-confirm-btn{
-  background-color: #3b82f6;
-  color: #ffffff;
-  border-width: 0px;
-  padding: 10px 15px 10px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-}
