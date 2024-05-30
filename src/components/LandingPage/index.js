@@ -17,25 +17,31 @@ const LandingPage =()=>{
     return (
         <>
          <Navbar /> 
-        
          <div className="landing-main-container">
-            <div 
-            className="dental-main-container">
-                <div
-                className="dental-container">
-                    <h1 className="dental-heading"> Discover a world where dental excellence meets facial artistry </h1> 
+            <div className="dental-main-container">
+                <div className="dental-container">
+                    <motion.h1 
+                       variants={fadeIn("up",0.2)}
+                       initial="hidden"
+                       whileInView={"show"} 
+                       viewport={{once:false,amount:0.7}}
+                       className="dental-heading"> Discover a world where dental excellence meets facial artistry </motion.h1> 
                     <button className="dental-request-btn">
                         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716794382/Vector_lisqvz.png" /> 
                         <p className="button-request-para"> Request a Call Back </p>
                     </button>
                 </div>
-                <div className="dental-icon-container">
+                <motion.div 
+                 initial={{ x: 100, opacity: 0 }}
+                 whileInView={{ x: 0, opacity: 1 }}
+                 transition={{ duration: 0.5 }}                 
+                className="dental-icon-container">
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798342/Group_29_ojuwub.png" className="social-icon"/> 
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798605/Group_eohm2k.png" className="social-icon-twitter"/> 
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798610/linkedin_black.1_gujvxm.png" className="social-icon"/> 
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798613/youtube_color.1_v6eavf.png" className="social-icon"/> 
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798618/instagram_black.1_nxeb7h.png" className="social-icon"/> 
-                </div>
+                </motion.div>
             </div>
             
             <div className="booking-appointment-container">
@@ -46,13 +52,16 @@ const LandingPage =()=>{
                 </div>
             </div>
             <div className="dental-checking-container">
-                <div
-                className="checking-container">
+                <motion.div
+                 initial={{ x: -100, opacity: 0 }}
+                 whileInView={{ x: 0, opacity: 1 }}
+                 transition={{ duration: 0.5 }}
+                 className="checking-container">
                     <img 
                     src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803054/8_kg8ljm.png" className="checking-image"/>  
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803060/9_uhythc.png"  className="checking-image" /> 
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803068/10_s16pvz.png" className="checking-images"/> 
-                </div>
+                </motion.div>
             </div>  
             <div
                     className="about-main-container">
