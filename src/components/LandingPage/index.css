@@ -306,7 +306,7 @@
 @media screen and (max-width:767px){
     .carousel-container{
         max-width: 300px;
-        background-color: aqua;
+       
         margin: auto;
         background-position: center;
     }

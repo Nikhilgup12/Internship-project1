@@ -88,8 +88,6 @@ const GeneralDentist =()=>{
                         <li>  <span className="crwon-unorderedlist-span"> Advanced Technology: </span>We utilize the latest advancements in dental and facial esthetics to provide superior results.</li>
                         <li>  <span className="crwon-unorderedlist-span"> Patient Comfort: </span>Your comfort is our priority, and we strive to create a relaxing and welcoming atmosphere.</li> 
                         <li>  <span className="crwon-unorderedlist-span"> Tailored Treatments: </span>We believe in personalized care and work with you to develop treatments that meet your unique needs. </li> 
- 
-                        
                     </ul>
                     <h1 className="general-exp-heading"> Ready to experience the Tech Smiles difference?  </h1>
                 </div>

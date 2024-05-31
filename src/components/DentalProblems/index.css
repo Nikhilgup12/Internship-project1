@@ -1,4 +1,4 @@
-*{
+/* *{
     margin:0px;
     box-sizing: border-box;
 }
@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column; 
     align-items: center;
-    /* justify-content: center; */
+    
     min-height: 100vh; 
 } 
 .cosmetic-main-container{
@@ -159,4 +159,13 @@
     font-family: Poppins;
     font-size: 20px;
     font-weight: bold;
+} */
+
+.cosmetic-dental-para{
+    font-family: Poppins; 
+    font-size:18px;
+    line-height:25px;
+    padding-top:20px;
+    color: #1E1E1E;
+    font-weight: 700;
 }
