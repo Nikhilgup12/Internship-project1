@@ -6,12 +6,14 @@ import GeneralDentist from "./components/GeneralDentist"
 import DentalImplants from "./components/DentalImplants"
 import SurgicalDentist from "./components/SurgicalDentist"
 import DentalProblems from "./components/DentalProblems"
+import ContactForm from "./components/ContactForm"
 import './App.css';
 
 const App =()=>{
   return (
     <>
      <Switch>
+        <Route exact path="/contact" component={ContactForm} /> 
         <Route exact path="/landing" component={LandingPage} /> 
         <Route exact path="/cosmetic" component={CosmeticDentist} /> 
         <Route exact path="/crown" component={CrownBridge} /> 
