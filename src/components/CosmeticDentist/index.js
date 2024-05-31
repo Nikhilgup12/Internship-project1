@@ -3,7 +3,7 @@ import { motion} from "framer-motion";
 import { fadeIn } from "../../variants";
 
 import Navbar from "../Navbar"
-import "./index.css" 
+import "./cosmetic.css" 
 
 const CosmeticDentist  =()=>{
     // const scrollRef = useRef(null)

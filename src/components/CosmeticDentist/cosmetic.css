@@ -16,6 +16,7 @@
     align-items: center; 
     justify-content:space-between; 
     padding:20px;
+   
     
 } 
 @media screen and (max-width:767px){
@@ -27,11 +28,12 @@
 }
 .cosmetic-container{
     display: flex; 
-    flex-direction:row;  
+    flex-direction:column;  
     justify-content: center;
     width: 100%; 
     max-width:700px; 
     padding:30px;
+    
     
 }
 .cosmetic-image{

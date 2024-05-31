@@ -9,7 +9,7 @@
     /* justify-content: center; */
     min-height: 100vh; 
 } 
-.cosmetic-main-container{
+.surgical-dentist-main-container{
     width: 100%; 
     display: flex; 
     align-items: center; 
@@ -17,13 +17,13 @@
     padding:20px;
 } 
 @media screen and (max-width:767px){
-    .cosmetic-main-container{
+    .surgical-dentist-main-container{
         display: flex; 
         flex-direction:column; 
         padding:10px;
     }
 }
-.cosmetic-container{
+.surgical-dentist-container{
     display: flex; 
     flex-direction: column;  
     justify-content: center;
@@ -31,34 +31,34 @@
     max-width: 700px; 
     padding:30px;
 }
-.cosmetic-image{
+.surgical-dentist-image{
     width: 100%; 
     max-width: 420px;
     border-radius:7px;
 } 
-.cosmetic-heading{
+.surgical-dentist-heading{
     font-family: Poppins; 
     font-size: 35px;
     line-height: 45px;
     color: #6F432A;
 }
-.cosmetic-para{
+.surgical-dentist-para{
     font-family: Poppins; 
     font-size:18px;
     line-height:50px;
 } 
-.cosmetic-description{
+.surgical-dentist-description{
     font-family: Poppins; 
     font-size:18px;
     line-height:20px;
 } 
 @media screen and (max-width:767px){
-    .cosmetic-container{
+    .surgical-dentist-container{
         max-width: 400px;
         margin-left: 0px;
         padding: 20px;
     }
-    .cosmetic-image{
+    .surgical-dentist-image{
         width: 100%;
         max-width: 340px;
     }
@@ -68,41 +68,41 @@
     .order2{
         order:0;
     }
-    .cosmetic-heading{
+    .surgical-dentist-heading{
         line-height:27px;
         padding-bottom: 10px;
         font-size: 25px;
     }
-    .cosmetic-para{
+    .surgical-dentist-para{
         line-height: 20px;
         padding-bottom: 10px;
     }
 }
 @media screen and (min-width:768px) and (max-width:990px){
-    .cosmetic-image{
+    .surgical-dentist-image{
         width: 100%; 
         max-width:600px;
     }
-    .cosmetic-container{
+    .surgical-dentist-container{
         padding:10px;
         margin-left: 0px;
         max-width: 400px;
         padding-left: 20px;
     }
-    .cosmetic-main-container{
+    .surgical-dentist-main-container{
         padding:10px;
     }
-    .cosmetic-heading{
+    .surgical-dentist-heading{
         line-height:27px;
         padding-bottom: 10px;
         font-size: 25px;
     }
-    .cosmetic-para{
+    .surgical-dentist-para{
         line-height: 20px;
         padding-bottom: 10px;
     }
 } 
-.cosmetic-information-container{
+.surgical-dentist-information-container{
     background-color:#A0C1BA; 
     display: flex; 
     flex-direction: column; 
@@ -113,14 +113,14 @@
 .one{
     background-color: #6F432A;
 }
-.cossmetic-info-button{
+.surgical-dentist-info-button{
     display: flex; 
     flex-wrap: wrap; 
     align-items: center; 
     justify-content: center;
     width: 100%;
 } 
-.cosmetic-booking-button{
+.surgical-dentist-booking-button{
     width: 100%; 
     max-width:250px;
 }

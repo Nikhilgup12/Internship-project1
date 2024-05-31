@@ -6,14 +6,14 @@ const CrownBridge =()=>{
         <>
         <Navbar /> 
         <div className="landing-main-container">
-            <div className="cosmetic-main-container">
-                <div className="cosmetic-container">
-                    <h1 className="cosmetic-heading"> Crown & Bridges </h1>
-                    <p className="cosmetic-para">  Restorative Excellence at Tech Smiles Dentistry </p> 
-                    <p className="cosmetic-description"> At Tech Smiles Dentistry & Facial Esthetics, we specialize in restoring smiles with the highest quality crown and bridge work. Our expert team in Delhi/NCR is dedicated to providing you with restorative treatments that not only improve the function of your teeth but also enhance their aesthetic appeal. </p> 
+            <div className="crown-main-container">
+                <div className="crown-container">
+                    <h1 className="crown-heading"> Crown & Bridges </h1>
+                    <p className="crown-para">  Restorative Excellence at Tech Smiles Dentistry </p> 
+                    <p className="crown-description"> At Tech Smiles Dentistry & Facial Esthetics, we specialize in restoring smiles with the highest quality crown and bridge work. Our expert team in Delhi/NCR is dedicated to providing you with restorative treatments that not only improve the function of your teeth but also enhance their aesthetic appeal. </p> 
                 </div>
                 <div>
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716869453/unsplash_7lBJaJpS3z4_gvvi30.png" className="cosmetic-image"/> 
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716869453/unsplash_7lBJaJpS3z4_gvvi30.png" className="crown-image"/> 
                 </div>
             </div>
             <div className="crown-inventors-main-container">

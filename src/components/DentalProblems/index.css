@@ -1,4 +1,4 @@
-/* *{
+*{
     margin:0px;
     box-sizing: border-box;
 }
@@ -6,10 +6,9 @@
     display: flex;
     flex-direction: column; 
     align-items: center;
-    
     min-height: 100vh; 
 } 
-.cosmetic-main-container{
+.dental-problems-main-container{
     width: 100%; 
     display: flex; 
     align-items: center; 
@@ -17,13 +16,13 @@
     padding:20px;
 } 
 @media screen and (max-width:767px){
-    .cosmetic-main-container{
+    .dental-problems-main-container{
         display: flex; 
         flex-direction:column; 
         padding:10px;
     }
 }
-.cosmetic-container{
+.dental-problems-container{
     display: flex; 
     flex-direction: column;  
     justify-content: center;
@@ -31,34 +30,34 @@
     max-width: 700px; 
     padding:30px;
 }
-.cosmetic-image{
+.dental-problems-image{
     width: 100%; 
     max-width: 420px;
     border-radius:7px;
 } 
-.cosmetic-heading{
+.dental-problems-heading{
     font-family: Poppins; 
     font-size: 35px;
     line-height: 45px;
     color: #6F432A;
 }
-.cosmetic-para{
+.dental-problems-para{
     font-family: Poppins; 
     font-size:18px;
     line-height:50px;
 } 
-.cosmetic-description{
+.dental-problems-description{
     font-family: Poppins; 
     font-size:18px;
     line-height:20px;
 } 
 @media screen and (max-width:767px){
-    .cosmetic-container{
+    .dental-problems-container{
         max-width: 400px;
         margin-left: 0px;
         padding: 20px;
     }
-    .cosmetic-image{
+    .dental-problems-image{
         width: 100%;
         max-width: 340px;
     }
@@ -68,41 +67,41 @@
     .order2{
         order:0;
     }
-    .cosmetic-heading{
+    .dental-problems-heading{
         line-height:27px;
         padding-bottom: 10px;
         font-size: 25px;
     }
-    .cosmetic-para{
+    .dental-problems-para{
         line-height: 20px;
         padding-bottom: 10px;
     }
 }
 @media screen and (min-width:768px) and (max-width:990px){
-    .cosmetic-image{
+    .dental-problems-image{
         width: 100%; 
         max-width:600px;
     }
-    .cosmetic-container{
+    .dental-problems-container{
         padding:10px;
         margin-left: 0px;
         max-width: 400px;
         padding-left: 20px;
     }
-    .cosmetic-main-container{
+    .dental-problems-main-container{
         padding:10px;
     }
-    .cosmetic-heading{
+    .dental-problems-heading{
         line-height:27px;
         padding-bottom: 10px;
         font-size: 25px;
     }
-    .cosmetic-para{
+    .dental-problems-para{
         line-height: 20px;
         padding-bottom: 10px;
     }
 } 
-.cosmetic-information-container{
+.dental-problems-information-container{
     background-color:#A0C1BA; 
     display: flex; 
     flex-direction: column; 
@@ -113,24 +112,24 @@
 .one{
     background-color: #6F432A;
 }
-.cossmetic-info-button{
+.dental-problems-info-button{
     display: flex; 
     flex-wrap: wrap; 
     align-items: center; 
     justify-content: center;
     width: 100%;
 } 
-.cosmetic-booking-button{
+.dental-problems-booking-button{
     width: 100%; 
     max-width:250px;
 }
-.cosmetic-section-image{
+.dental-problems-section-image{
     padding-right: 30px;
     margin-bottom: 20px;
     width: 100%; 
     max-width: 300px;
 } 
-.cosmetic-bottom-main-container{
+.dental-problems-bottom-main-container{
     background-color:#FDF9EE;
     display: flex; 
     flex-direction: column; 
@@ -139,7 +138,7 @@
     width: 100%;
     padding:20px;
 } 
-.cosmetic-bottom-container{
+.dental-problems-bottom-container{
     padding:20px;
     display: flex; 
     flex-direction: column; 
@@ -159,13 +158,49 @@
     font-family: Poppins;
     font-size: 20px;
     font-weight: bold;
-} */
-
-.cosmetic-dental-para{
+} 
+.dental-problems-dental-para{
     font-family: Poppins; 
     font-size:18px;
     line-height:25px;
     padding-top:20px;
     color: #1E1E1E;
     font-weight: 700;
+}
+
+.dental-problems-unordered-list-main-container {
+    background-color: #FFFFFF; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+    padding: 20px;
+} 
+
+.dental-problems-unordered-list-container {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 20px;
+    width: 100%;
+}
+
+/* .dental-problems-heading {
+    color: #FDF9EE; 
+    font-family: Poppins; 
+}  */
+
+.dental-problems-unorderedlist {
+    color: #FDF9EE; 
+    font-family: Poppins; 
+    font-size: 20px;
+    padding-bottom: 10px;
+} 
+
+.dental-problems-exp-heading {
+    color: #FDF9EE; 
+    font-family: Poppins; 
+    font-size: 20px;
+    padding-top: 20px;
 }

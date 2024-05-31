@@ -9,145 +9,162 @@
     /* justify-content: center; */
     min-height: 100vh; 
 } 
-.cosmetic-main-container{
-    width: 100%; 
-    display: flex; 
-    align-items: center; 
-    justify-content:space-between; 
-    padding:20px;
-} 
-@media screen and (max-width:767px){
-    .cosmetic-main-container{
-        display: flex; 
-        flex-direction:column; 
-        padding:10px;
+.dental-implants-main-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .dental-implants-main-container {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
     }
 }
-.cosmetic-container{
-    display: flex; 
-    flex-direction: column;  
+
+.dental-implants-container {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 100%; 
-    max-width: 700px; 
-    padding:30px;
+    width: 100%;
+    max-width: 700px;
+    padding: 30px;
+    
 }
-.cosmetic-image{
-    width: 100%; 
+
+.dental-implants-image {
+    width: 100%;
     max-width: 420px;
-    border-radius:7px;
-} 
-.cosmetic-heading{
-    font-family: Poppins; 
+    border-radius: 7px;
+}
+
+.dental-implants-heading {
+    font-family: Poppins;
     font-size: 35px;
     line-height: 45px;
     color: #6F432A;
 }
-.cosmetic-para{
-    font-family: Poppins; 
-    font-size:18px;
-    line-height:50px;
-} 
-.cosmetic-description{
-    font-family: Poppins; 
-    font-size:18px;
-    line-height:20px;
-} 
-@media screen and (max-width:767px){
-    .cosmetic-container{
+
+.dental-implants-para {
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.dental-implants-description {
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .dental-implants-container {
         max-width: 400px;
         margin-left: 0px;
         padding: 20px;
     }
-    .cosmetic-image{
+    .dental-implants-image {
         width: 100%;
         max-width: 340px;
     }
-    .order1{
-        order:1;
+    .order1 {
+        order: 1;
     }
-    .order2{
-        order:0;
+    .order2 {
+        order: 0;
     }
-    .cosmetic-heading{
-        line-height:27px;
+    .dental-implants-heading {
+        line-height: 27px;
         padding-bottom: 10px;
         font-size: 25px;
     }
-    .cosmetic-para{
+    .dental-implants-para {
         line-height: 20px;
         padding-bottom: 10px;
     }
 }
-@media screen and (min-width:768px) and (max-width:990px){
-    .cosmetic-image{
-        width: 100%; 
-        max-width:600px;
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .dental-implants-image {
+        width: 100%;
+        max-width: 600px;
     }
-    .cosmetic-container{
-        padding:10px;
+    .dental-implants-container {
+        padding: 10px;
         margin-left: 0px;
         max-width: 400px;
         padding-left: 20px;
     }
-    .cosmetic-main-container{
-        padding:10px;
+    .dental-implants-main-container {
+        padding: 10px;
     }
-    .cosmetic-heading{
-        line-height:27px;
+    .dental-implants-heading {
+        line-height: 27px;
         padding-bottom: 10px;
         font-size: 25px;
     }
-    .cosmetic-para{
+    .dental-implants-para {
         line-height: 20px;
         padding-bottom: 10px;
     }
-} 
-.cosmetic-information-container{
-    background-color:#A0C1BA; 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
+}
+
+.dental-implants-information-container {
+    background-color: #A0C1BA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-} 
-.one{
+}
+
+.one {
     background-color: #6F432A;
 }
-.cossmetic-info-button{
-    display: flex; 
-    flex-wrap: wrap; 
-    align-items: center; 
+
+.dental-implants-info-button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
     width: 100%;
-} 
-.cosmetic-booking-button{
-    width: 100%; 
-    max-width:250px;
 }
-.cosmetic-section-image{
+
+.dental-implants-booking-button {
+    width: 100%;
+    max-width: 250px;
+}
+
+.dental-implants-section-image {
     padding-right: 30px;
     margin-bottom: 20px;
-    width: 100%; 
-    max-width: 300px;
-} 
-.cosmetic-bottom-main-container{
-    background-color:#FDF9EE;
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center; 
     width: 100%;
-    padding:20px;
-} 
-.cosmetic-bottom-container{
-    padding:20px;
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
+    max-width: 300px;
+}
+
+.dental-implants-bottom-main-container {
+    background-color: #FDF9EE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    width: 100%; 
+    width: 100%;
+    padding: 20px;
+}
+
+.dental-implants-bottom-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     max-width: 1100px;
 }
+
 .bottom-para{
     font-family: Poppins;
     font-size: 20px;

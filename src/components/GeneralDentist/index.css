@@ -9,10 +9,109 @@
     /* justify-content: center; */
     min-height: 100vh; 
 }  
+/* index.css */
+
+.general-main-container {
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .general-main-container {
+        flex-direction: column; 
+        padding: 10px;
+    }
+}
+
+.general-container {
+    display: flex; 
+    flex-direction: column;  
+    justify-content: center;
+    width: 100%; 
+    max-width: 700px; 
+    padding: 30px;
+    /* background-color:aquamarine; */
+}
+
+.general-image {
+    width: 100%; 
+    max-width: 420px;
+    border-radius: 7px;
+}
+
+.general-heading {
+    font-family: Poppins; 
+    font-size: 35px;
+    line-height: 45px;
+    color: #6F432A;
+}
+
+.general-para {
+    font-family: Poppins; 
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.general-description {
+    font-family: Poppins; 
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .general-container {
+        max-width: 400px;
+        padding: 20px;
+    }
+    .general-image {
+        max-width: 340px;
+    }
+    .order1 {
+        order: 1;
+    }
+    .order2 {
+        order: 0;
+    }
+    .general-heading {
+        font-size: 25px;
+        line-height: 27px;
+        padding-bottom: 10px;
+    }
+    .general-para {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .general-image {
+        max-width: 600px;
+    }
+    .general-container {
+        padding: 10px;
+        max-width: 400px;
+        padding-left: 20px;
+    }
+    .general-main-container {
+        padding: 10px;
+    }
+    .general-heading {
+        font-size: 25px;
+        line-height: 27px;
+        padding-bottom: 10px;
+    }
+    .general-para {
+        padding-bottom: 10px;
+    }
+}
+
 .general-bg{
     background-color:#6F432A;
 }
-.general-heading{
+.general-dentist-heading{
     color: #FDF9EE; 
     font-family: Poppins; 
 } 
@@ -25,7 +124,7 @@
     font-size:20px;
     padding-top:20px;
 }
-.general-main-container{
+.general-dentist-main-container{
     display: flex; 
     flex-direction: column; 
     align-items: center; 
