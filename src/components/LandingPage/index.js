@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from 'react';
 
 import { motion} from "framer-motion";
 
@@ -13,13 +13,34 @@ import 'slick-carousel/slick/slick-theme.css'
 
 
 const LandingPage =()=>{
-   
+    useEffect(() => {
+        const elements = document.querySelectorAll('.fade-in-right');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        });
+
+        elements.forEach(element => {
+            observer.observe(element);
+        });
+
+        // Clean up the observer on unmount
+        return () => {
+            elements.forEach(element => {
+                observer.unobserve(element);
+            });
+        };
+    }, []);
     return (
         <>
          <Navbar /> 
          <div className="landing-main-container">
             <div className="dental-main-container">
-                <div className="dental-container">
+                <div className="dental-container fade-in-right">
                     <h1 
                     //    variants={fadeIn("up",0.2)}
                     //    initial="hidden"
@@ -35,7 +56,7 @@ const LandingPage =()=>{
                 //  initial={{ x: 100, opacity: 0 }}
                 //  whileInView={{ x: 0, opacity: 1 }}
                 //  transition={{ duration: 0.5 }}                 
-                className="dental-icon-container">
+                className="dental-icon-container fade-in-right">
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798342/Group_29_ojuwub.png" className="social-icon"/> 
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798605/Group_eohm2k.png" className="social-icon-twitter"/> 
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798610/linkedin_black.1_gujvxm.png" className="social-icon"/> 
@@ -45,7 +66,7 @@ const LandingPage =()=>{
             </div>
             
             <div className="booking-appointment-container">
-                <div className="booking-section-button">
+                <div className="booking-section-button fade-in-right">
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800161/Frame_3_aczcu8.png"  className="booking-appointment-logo"/> 
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800171/Frame_6_q1rjdz.png"  className="booking-appointment-logo"/> 
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800189/Frame_5_2_dcdrnx.png"  className="booking-appointment-logos"/> 

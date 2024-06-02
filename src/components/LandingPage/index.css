@@ -390,6 +390,7 @@
     background-color:#A0C1BA; 
     width: 100%; 
     padding:25px;
+    bottom: 0px;
 } 
 @media screen and (max-width:767px){
     .fotter-main-container{
@@ -418,12 +419,7 @@
     padding-right: 10px;
 }
 
-/* Scroll transition for containers */
-/* .landing-main-container {
-    transition: transform 0.5s ease-in-out;
-} */
-
-/* Animation for text */
+/* Define keyframes for animations */
 @keyframes slideInFromLeft {
     from {
         transform: translateX(-100%);
@@ -435,7 +431,17 @@
     }
 }
 
-/* Animation for container */
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -445,22 +451,44 @@
     }
 }
 
+/* CSS Keyframes for fade-in-right animation */
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Initial state for elements */
+.fade-in-right {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+/* Active state when elements come into view */
+.fade-in-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
 /* Apply animation to text elements */
 .dental-heading, .about-heading, .technology-heading {
     animation: slideInFromLeft 1s ease-in-out;
 }
 
-/* Apply animation to all containers */
-.dental-main-container, .booking-appointment-container, .dental-checking-container, .about-main-container, .carousel-main-container, .advanced-technology-container, .fotter-main-container {
+/* Apply animation to images and containers */
+.dental-icon-container, .checking-container, .carousel-image, .technology-image {
     animation: fadeIn 1s ease-in-out;
 }
 
-/* Hover effect for container */
-.dental-main-container:hover {
-    transform: translateY(-5px);
-    transition: transform 0.3s ease-in-out;
+/* Additional animations for other containers */
+.dental-container, .booking-appointment-container, .dental-checking-container, .about-main-container, .carousel-main-container, .advanced-technology-container, .fotter-main-container {
+    animation: fadeIn 1s ease-in-out;
 }
-.checking-image:hover, .checking-images:hover{
-    transform: translateY(-5px);
-    transition: transform 0.3s ease-in-out;
-} 
+
