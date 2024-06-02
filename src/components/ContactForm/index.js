@@ -72,6 +72,10 @@ class ContactForm extends Component{
                                         <label htmlFor="email" className="first-name-label"> Message  </label> <br/> 
                                         <textarea rows={10} cols={50} className="first-name-input"/> 
                                 </div>
+                                <div className="button-container">
+                                <button className="form-submit-button"> Book an appointment</button>
+                                </div>
+                               
                             </form>
                         </div>
                     </div>

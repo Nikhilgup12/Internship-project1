@@ -23,17 +23,16 @@ const CosmeticDentist  =()=>{
                     <p className="cosmetic-para"> Crafting Your Dream Smile in Delhi/NCR </p> 
                     <p className="cosmetic-description"> Welcome to Tech Smiles Dentistry & Facial Esthetics, where we believe that a beautiful smile is the key to unlocking a world of confidence and opportunity. Our cosmetic dentistry services in Delhi/NCR are designed to enhance your natural beauty and give you the smile you’ve always dreamed of. </p> 
                 </div>
-                
+                <div>
+
                     <img 
                     // initial={{ x: 100, opacity: 0 }}
                     // whileInView={{ x: 0, opacity: 1 }}
                     // transition={{ duration: 0.5 }}
                     
                     src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716869453/unsplash_7lBJaJpS3z4_gvvi30.png" className="cosmetic-image"/> 
-                
+                </div>
             </div>
-            
-            
             <div className="cosmetic-main-container">
                 <div className="order1">
                     <img 
