@@ -1,0 +1,258 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+.landing-main-container{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    min-height: 100vh; 
+} 
+.teeth-whitening-main-container {
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .teeth-whitening-main-container {
+        display: flex; 
+        flex-direction: column; 
+        padding: 10px;
+    }
+}
+
+.teeth-whitening-container {
+    display: flex; 
+    flex-direction: column;  
+    justify-content: center;
+    width: 100%; 
+    max-width: 700px; 
+    padding: 30px;
+}
+
+.teeth-whitening-image {
+    width: 100%; 
+    max-width: 420px;
+    border-radius: 7px;
+} 
+
+.teeth-whitening-heading {
+    font-family: Poppins; 
+    font-size: 35px;
+    line-height: 45px;
+    color: #6F432A;
+    padding-bottom: 10px;
+}
+
+.teeth-whitening-para {
+    font-family: Poppins; 
+    font-size: 18px;
+    line-height: 50px;
+} 
+
+.teeth-whitening-description {
+    font-family: Poppins; 
+    font-size: 18px;
+    line-height: 20px;
+} 
+
+@media screen and (max-width: 767px) {
+    .teeth-whitening-container {
+        max-width: 400px;
+        margin-left: 0px;
+        padding: 20px;
+    }
+    .teeth-whitening-image {
+        width: 100%;
+        max-width: 340px;
+    }
+    .order1 {
+        order: 1;
+    }
+    .order2 {
+        order: 0;
+    }
+    .teeth-whitening-heading {
+        line-height: 27px;
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+    .teeth-whitening-para {
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .teeth-whitening-image {
+        width: 100%; 
+        max-width: 600px;
+    }
+    .teeth-whitening-container {
+        padding: 10px;
+        margin-left: 0px;
+        max-width: 400px;
+        padding-left: 20px;
+    }
+    .teeth-whitening-main-container {
+        padding: 10px;
+    }
+    .teeth-whitening-heading {
+        line-height: 27px;
+        padding-bottom: 10px;
+        font-size: 25px;
+    }
+    .teeth-whitening-para {
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+} 
+
+.teeth-whitening-information-container {
+    background-color: #A0C1BA; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+} 
+
+.one {
+    background-color: #6F432A;
+}
+
+.teeth-whitening-info-button {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: center;
+    width: 100%;
+} 
+
+.teeth-whitening-booking-button {
+    width: 100%; 
+    max-width: 250px;
+}
+
+.teeth-whitening-section-image {
+    padding-right: 30px;
+    margin-bottom: 20px;
+    width: 100%; 
+    max-width: 300px;
+} 
+
+.teeth-whitening-bottom-main-container {
+    background-color: #FDF9EE;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    padding: 20px;
+} 
+
+.teeth-whitening-bottom-container {
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    width: 100%; 
+    max-width: 1100px;
+}
+
+.bottom-para {
+    font-family: Poppins;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1E1E1E; 
+}
+
+.botton-span-para {
+    color: #6F432A;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.teeth-whitening-dental-span-para {
+    font-family: Poppins; 
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 20px;
+    color: #1E1E1E;
+    font-weight: 700;
+}
+.teeth-whitening-dental-para {
+    font-family: Poppins; 
+    font-size: 16px;
+    line-height: 25px;
+    color: #1E1E1E;
+    font-weight:520;
+}
+.teeth-whitening-unordered-list-main-container {
+    background-color: #FFFFFF; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+    padding:20px;
+}
+
+
+.teeth-whitening-unordered-list-container {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 20px;
+    width: 100%;
+}
+
+/* .teeth-whitening-heading {
+    color: #FDF9EE; 
+    font-family: Poppins; 
+}  */
+
+.teeth-whitening-unorderedlist {
+    color: #FDF9EE; 
+    font-family: Poppins; 
+    font-size: 20px;
+    padding-bottom: 10px;
+} 
+
+.teeth-whitening-exp-heading {
+    color: #FDF9EE; 
+    font-family: Poppins; 
+    font-size: 20px;
+    padding-top: 20px;
+}
+.teeth-unorderedlist{
+    color: #FDF9EE;
+    font-family: Poppins; 
+    font-size:15px;
+    padding-top: 10px;
+    padding-bottom:20px;
+} 
+.teeth-exp-heading{
+    color: #FDF9EE; 
+    font-family: Poppins; 
+    font-size:22px;
+    padding-bottom: 10px;
+}
+.teeth-unorderedlist-q{
+    color: #FDF9EE;
+    font-family: Poppins; 
+    font-size:15px;
+   
+    
+} 
+.teeth-exp-heading-q{
+    color: #FDF9EE; 
+    font-family: Poppins; 
+    font-size:17px;
+    padding-bottom: 10px;
+}

@@ -13,7 +13,6 @@ const NavbarMobile = props => {
             </div>
             <div className='navbar-container'>
                 <div className='nav-mobile-item'>
-               
                     <p className='nav-menu-items'> About us  </p>
                
                 </div>

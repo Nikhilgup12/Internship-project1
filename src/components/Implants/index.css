@@ -1,15 +1,4 @@
-*{
-    margin:0px;
-    box-sizing: border-box;
-}
-.landing-main-container{
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    /* justify-content: center; */
-    min-height: 100vh; 
-} 
-.dental-implants-main-container {
+.implants-main-container {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,44 +7,43 @@
 }
 
 @media screen and (max-width: 767px) {
-    .dental-implants-main-container {
+    .implants-main-container {
         display: flex;
         flex-direction: column;
         padding: 10px;
     }
 }
 
-.dental-implants-container {
+.implants-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     max-width: 700px;
     padding: 30px;
-    
 }
 
-.dental-implants-image {
+.implants-image {
     width: 100%;
     max-width: 420px;
     border-radius: 7px;
 }
 
-.dental-implants-heading {
+.implants-heading {
     font-family: Poppins;
     font-size: 35px;
     line-height: 40px;
     color: #6F432A;
 }
 
-.dental-implants-para {
+.implants-para {
     font-family: Poppins;
     font-size: 18px;
     line-height: 50px;
     font-weight: 700;
 }
 
-.dental-implants-description {
+.implants-description {
     font-family: Poppins;
     font-size: 18px;
     line-height: 20px;
@@ -63,12 +51,12 @@
 }
 
 @media screen and (max-width: 767px) {
-    .dental-implants-container {
+    .implants-container {
         max-width: 400px;
         margin-left: 0px;
         padding: 20px;
     }
-    .dental-implants-image {
+    .implants-image {
         width: 100%;
         max-width: 340px;
     }
@@ -78,43 +66,43 @@
     .order2 {
         order: 0;
     }
-    .dental-implants-heading {
+    .implants-heading {
         line-height: 27px;
         padding-bottom: 10px;
         font-size: 25px;
     }
-    .dental-implants-para {
+    .implants-para {
         line-height: 20px;
         padding-bottom: 10px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 990px) {
-    .dental-implants-image {
+    .implants-image {
         width: 100%;
         max-width: 600px;
     }
-    .dental-implants-container {
+    .implants-container {
         padding: 10px;
         margin-left: 0px;
         max-width: 400px;
         padding-left: 20px;
     }
-    .dental-implants-main-container {
+    .implants-main-container {
         padding: 10px;
     }
-    .dental-implants-heading {
+    .implants-heading {
         line-height: 27px;
         padding-bottom: 10px;
         font-size: 25px;
     }
-    .dental-implants-para {
+    .implants-para {
         line-height: 20px;
         padding-bottom: 10px;
     }
 }
 
-.dental-implants-information-container {
+.implants-information-container {
     background-color: #A0C1BA;
     display: flex;
     flex-direction: column;
@@ -127,7 +115,7 @@
     background-color: #6F432A;
 }
 
-.dental-implants-info-button {
+.implants-info-button {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -135,19 +123,19 @@
     width: 100%;
 }
 
-.dental-implants-booking-button {
+.implants-booking-button {
     width: 100%;
     max-width: 250px;
 }
 
-.dental-implants-section-image {
+.implants-section-image {
     padding-right: 30px;
     margin-bottom: 20px;
     width: 100%;
     max-width: 300px;
 }
 
-.dental-implants-bottom-main-container {
+.implants-bottom-main-container {
     background-color: #FDF9EE;
     display: flex;
     flex-direction: column;
@@ -157,7 +145,7 @@
     padding: 20px;
 }
 
-.dental-implants-bottom-container {
+.implants-bottom-container {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -166,7 +154,6 @@
     width: 100%;
     max-width: 1100px;
 }
-
 .bottom-para{
     font-family: Poppins;
     font-size: 20px;
@@ -178,4 +165,23 @@
     font-family: Poppins;
     font-size: 20px;
     font-weight: bold;
+}
+.implants-unordered-list-desc{
+    padding-top:20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.implants-unordered-list-span{
+    color:#1E1E1E;
+    font-weight: 700;
+    font-size:18px;
+    font-family: Poppins;
+}
+.implants-unordered-list-para{
+    color:#1E1E1E;
+    font-weight: 500;
+    font-size:16px;
+    font-family: Poppins;
+    padding-bottom:5px;
 }

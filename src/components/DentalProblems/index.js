@@ -56,6 +56,7 @@ const DentalProblems =()=>{
                     <p className="dental-problems-dental-para"> Don’t let teeth sensitivity stop you from enjoying your favorite foods. Contact us for a consultation! </p> 
                 </div>
             </div>
+
             <div className="dental-problems-main-container">
                 <div className="dental-problems-container">
                     <h1 className="dental-problems-heading"> Toothache </h1> 
@@ -86,6 +87,7 @@ const DentalProblems =()=>{
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874734/unsplash_fmB7IdFjhTM_1_d5dltx.png" className="dental-problems-image" alt="dental problem"/> 
                 </div>
             </div>
+            
             <div className="dental-problems-main-container">
                 <div className="order1">
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716869434/unsplash_NtyeAi5JeQU_srkuoc.png" className="dental-problems-image" alt="dental problem"/> 
