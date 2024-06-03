@@ -131,6 +131,7 @@
 .cosmetic-booking-button{
     width: 100%; 
     max-width:250px;
+    cursor: pointer;
 }
 .cosmetic-section-image{
     padding-right: 30px;

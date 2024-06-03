@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
+import {Link} from "react-router-dom"
 
-import { motion} from "framer-motion";
+// import { motion} from "framer-motion";
 
-import { fadeIn } from "../../variants";
+// import { fadeIn } from "../../variants";
 
 import './index.css';
 import Navbar from "../Navbar"
@@ -47,29 +48,38 @@ const LandingPage =()=>{
                     //    whileInView={"show"} 
                     //    viewport={{once:false,amount:0.7}}
                        className="dental-heading"> Discover a world where dental excellence meets facial artistry </h1> 
-                    <button className="dental-request-btn">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716794382/Vector_lisqvz.png" /> 
+                       <Link to="contact">
+                       <button className="dental-request-btn">
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716794382/Vector_lisqvz.png" alt="call" /> 
                         <p className="button-request-para"> Request a Call Back </p>
                     </button>
+                       </Link>
+
                 </div>
                 <div 
                 //  initial={{ x: 100, opacity: 0 }}
                 //  whileInView={{ x: 0, opacity: 1 }}
                 //  transition={{ duration: 0.5 }}                 
                 className="dental-icon-container fade-in-right">
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798342/Group_29_ojuwub.png" className="social-icon"/> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798605/Group_eohm2k.png" className="social-icon-twitter"/> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798610/linkedin_black.1_gujvxm.png" className="social-icon"/> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798613/youtube_color.1_v6eavf.png" className="social-icon"/> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798618/instagram_black.1_nxeb7h.png" className="social-icon"/> 
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798342/Group_29_ojuwub.png" className="social-icon" alt="social media"/> 
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798605/Group_eohm2k.png" className="social-icon-twitter" alt="social media"/> 
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798610/linkedin_black.1_gujvxm.png" className="social-icon" alt="social media"/> 
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798613/youtube_color.1_v6eavf.png" className="social-icon" alt="social media"/> 
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798618/instagram_black.1_nxeb7h.png" className="social-icon" alt="social media"/> 
                 </div>
             </div>
             
             <div className="booking-appointment-container">
                 <div className="booking-section-button fade-in-right">
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800161/Frame_3_aczcu8.png"  className="booking-appointment-logo"/> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800171/Frame_6_q1rjdz.png"  className="booking-appointment-logo"/> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800189/Frame_5_2_dcdrnx.png"  className="booking-appointment-logos"/> 
+                    <Link to="/contact">
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800161/Frame_3_aczcu8.png"  className="booking-appointment-logo" alt="landing consult" /> 
+                    </Link>
+                    <Link to="contact">
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800171/Frame_6_q1rjdz.png"  className="booking-appointment-logo" alt="landing consult"/> 
+                    </Link>
+                    <Link to="contact">
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800189/Frame_5_2_dcdrnx.png"  className="booking-appointment-logos" alt="landing consult"/>
+                    </Link>
                 </div>
             </div>
             <div className="dental-checking-container">
@@ -77,11 +87,11 @@ const LandingPage =()=>{
                 //  initial={{ x: -100, opacity: 0 }}
                 //  whileInView={{ x: 0, opacity: 1 }}
                 //  transition={{ duration: 0.5 }}
-                 className="checking-container">
+                className="checking-container">
                     <img 
-                    src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803054/8_kg8ljm.png" className="checking-image"/>  
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803060/9_uhythc.png"  className="checking-image" /> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803068/10_s16pvz.png" className="checking-images"/> 
+                    src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803054/8_kg8ljm.png" className="checking-image" alt="landing section" />  
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803060/9_uhythc.png"  className="checking-image" alt="landing section"/> 
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803068/10_s16pvz.png" className="checking-images" alt="landing section"/> 
                 </div>
             </div>  
             <div
@@ -92,7 +102,7 @@ const LandingPage =()=>{
                             // initial="hidden"
                             // whileInView={"show"} 
                             // viewport={{once:false,amount:0.7}}
-                            src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716809273/Group_1_vuhw7m.png" className="about-image"/> 
+                            src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716809273/Group_1_vuhw7m.png" className="about-image" alt="about" /> 
                     <div className="about-info-container">
                         <h1 className="about-heading"> About us  </h1> 
                         <p className="about-para"> standard dummy text ever since the 1500s, when an unknown printer took a 
@@ -111,13 +121,13 @@ const LandingPage =()=>{
                 className="carousel-container">
                     <Slider slidesToShow={2} dots={true}>
                         <div className="carouse-image-container">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716818529/Group_15_nkmwym.png" className="carousel-image"/> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716818529/Group_15_nkmwym.png" className="carousel-image" alt="carousel" /> 
                         </div>
                         <div>
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716818529/Group_15_nkmwym.png" className="carousel-image"/> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716818529/Group_15_nkmwym.png" className="carousel-image" alt="carousel"/> 
                         </div>
                         <div>
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716818529/Group_15_nkmwym.png" className="carousel-image" /> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716818529/Group_15_nkmwym.png" className="carousel-image" alt="carousel" /> 
                         </div>
                     </Slider>
                 </div>
@@ -136,18 +146,18 @@ const LandingPage =()=>{
                     //    whileInView={"show"} 
                     //    viewport={{once:false,amount:0.7}}
                     className="technology-image-container">
-                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821962/Group_35_omdaot.png" className="technology-image"/> </li>
-                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821978/Group_33_vezqku.png" className="technology-image"/> </li>
-                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821985/Group_34_suumxj.png" className="technology-image"/> </li>
-                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821991/Frame_75_f6x4wd.png" className="technology-image"/> </li>
-                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822007/Frame_81_a5jpqg.png" className="technology-image"/> </li>
-                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822019/Group_42_zlmhft.png" className="technology-image"/> </li>
-                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822047/Frame_78_aowdrw.png" className="technology-image"/> </li> 
-                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716960861/Group_40_xnfeqo.png" className="technology-image"/> </li>
-                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822024/Group_41_bg4y9y.png" className="technology-image"/> </li>
-                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822028/Group_37_i2efmt.png" className="technology-image"/> </li>
-                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822033/Group_38_ivucnp.png" className="technology-image"/> </li>
-                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822038/Frame_80_pdyuay.png" className="technology-image"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821962/Group_35_omdaot.png" className="technology-image" alt="technology" /> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821978/Group_33_vezqku.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821985/Group_34_suumxj.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821991/Frame_75_f6x4wd.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822007/Frame_81_a5jpqg.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822019/Group_42_zlmhft.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822047/Frame_78_aowdrw.png" className="technology-image" alt="technology"/> </li> 
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716960861/Group_40_xnfeqo.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822024/Group_41_bg4y9y.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822028/Group_37_i2efmt.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822033/Group_38_ivucnp.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822038/Frame_80_pdyuay.png" className="technology-image" alt="technology"/> </li>
                     </ul>
                 </div>
             </div> 
@@ -160,7 +170,7 @@ const LandingPage =()=>{
                     <p> Disclaimer </p>
                 </div> 
                 <div>
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" /> 
+                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" alt="social icon" /> 
                 </div>
             </div>
 

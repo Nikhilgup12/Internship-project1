@@ -245,11 +245,13 @@
     max-width:140px;
     padding-top: 10px;
     padding-right:7px;
+    cursor: pointer;
 }
 .crown-metal-opp-image{
     width: 100%; 
     max-width:180px;
     padding-top: 12px;
+    cursor: pointer;
 } 
 .crwon-metal-info-container{
     padding:10px;

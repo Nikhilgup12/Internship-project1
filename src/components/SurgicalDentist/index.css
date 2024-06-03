@@ -46,11 +46,13 @@
     font-family: Poppins; 
     font-size:18px;
     line-height:50px;
+    font-weight: 500;
 } 
 .surgical-dentist-description{
     font-family: Poppins; 
     font-size:18px;
     line-height:20px;
+    padding-top: 10px;
 } 
 @media screen and (max-width:767px){
     .surgical-dentist-container{

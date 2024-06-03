@@ -5,6 +5,11 @@ import 'react-phone-input-2/lib/style.css';
 import "./index.css" 
 
 class ContactForm extends Component{
+
+    onSubmitForm=(event)=>{
+        event.preventDefault()
+    }
+
     render(){
         return (
             <>
@@ -18,21 +23,21 @@ class ContactForm extends Component{
                     <div className="contact-form-main-container">
                         <div className="contact-form-schedule-container">
                             <div className="contact-google-map-image">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717153740/Group_1000001067_bv24vj.svg" className="google-image"/> 
-                            </div>
-                           <div className="contact-google-map-image">
-                           <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717153743/Group_1000001090_ypgjth.svg" className="contact-office-image"/> 
-                           </div>
-                            <div className="contact-google-map-image">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717153750/Group_1000001091_r0moh3.svg" className="contact-office-image"/> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717153740/Group_1000001067_bv24vj.svg" className="google-image" alt="google-map" /> 
                             </div>
                             <div className="contact-google-map-image">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717153757/Group_1000001092_vmpiou.svg" className="contact-office-image"/> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717153743/Group_1000001090_ypgjth.svg" className="contact-office-image" alt="office" /> 
+                            </div>
+                            <div className="contact-google-map-image">
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717153750/Group_1000001091_r0moh3.svg" className="contact-office-image" alt="email" /> 
+                            </div>
+                            <div className="contact-google-map-image">
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717153757/Group_1000001092_vmpiou.svg" className="contact-office-image" alt="phone" /> 
                             </div>
                             
                         </div>
                         <div className="contact-form-container">
-                            <form className="form">
+                            <form className="form" onSubmit={this.onSubmitForm}>
                                 <div className="first-last-name-container">
                                     <div className="first-name-container">
                                         <label htmlFor="name" className="first-name-label"> First name </label> <br/> 
@@ -73,25 +78,24 @@ class ContactForm extends Component{
                                         <textarea rows={10} cols={50} className="first-name-input"/> 
                                 </div>
                                 <div className="button-container">
-                                <button className="form-submit-button"> Book an appointment</button>
+                                    <button className="form-submit-button" type="submit"> Book an appointment</button>
                                 </div>
-                               
                             </form>
                         </div>
                     </div>
                 </div>
                 <div className="fotter-main-container">
-                <div className="fotter-container">
-                    <p className="fotter-item"> About </p> 
-                    <p> Contact us </p> 
-                    <p> Help </p> 
-                    <p> Privacy Policy </p> 
-                    <p> Disclaimer </p>
-                </div> 
-                <div>
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" /> 
+                    <div className="fotter-container">
+                        <p className="fotter-item"> About </p> 
+                        <p> Contact us </p> 
+                        <p> Help </p> 
+                        <p> Privacy Policy </p> 
+                        <p> Disclaimer </p>
+                    </div> 
+                    <div>
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" alt="socila icon" /> 
+                    </div>
                 </div>
-            </div>
             </div>
             </>
         )
