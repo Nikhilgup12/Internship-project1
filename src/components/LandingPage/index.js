@@ -61,11 +61,21 @@ const LandingPage =()=>{
                 //  whileInView={{ x: 0, opacity: 1 }}
                 //  transition={{ duration: 0.5 }}                 
                 className="dental-icon-container fade-in-right">
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798342/Group_29_ojuwub.png" className="social-icon" alt="social media"/> 
+                    <Link to="/contact">
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798342/Group_29_ojuwub.png" className="social-icon" alt="social media"/> 
+                    </Link>
+                    <Link to="/contact"> 
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798605/Group_eohm2k.png" className="social-icon-twitter" alt="social media"/> 
+                    </Link>
+                    <Link to="/contact"> 
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798610/linkedin_black.1_gujvxm.png" className="social-icon" alt="social media"/> 
+                    </Link>
+                    <Link to="/contact"> 
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798613/youtube_color.1_v6eavf.png" className="social-icon" alt="social media"/> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798618/instagram_black.1_nxeb7h.png" className="social-icon" alt="social media"/> 
+                    </Link>
+                    <Link to="/contact">
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798618/instagram_black.1_nxeb7h.png" className="social-icon" alt="social media"/> 
+                    </Link>
                 </div>
             </div>
             
@@ -163,14 +173,26 @@ const LandingPage =()=>{
             </div> 
             <div className="fotter-main-container">
                 <div className="fotter-container">
-                    <p className="fotter-item"> About </p> 
-                    <p> Contact us </p> 
-                    <p> Help </p> 
-                    <p> Privacy Policy </p> 
-                    <p> Disclaimer </p>
+                    <Link to="/contact">
+                        <p className="fotter-item"> About </p>
+                    </Link>
+                    <Link to="/contact">
+                        <p className="fotter-item"> Contact us </p> 
+                    </Link> 
+                    <Link to="/contact">
+                        <p className="fotter-item"> Help </p>
+                    </Link>
+                    <Link to="/contact">
+                        <p className="fotter-item"> Privacy Policy </p>
+                    </Link> 
+                    <Link to="/contact">
+                        <p className="fotter-item"> Disclaimer </p>
+                    </Link>
                 </div> 
                 <div>
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" alt="social icon" /> 
+                    <Link to="/contact">
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" alt="social icon" /> 
+                    </Link>
                 </div>
             </div>
 

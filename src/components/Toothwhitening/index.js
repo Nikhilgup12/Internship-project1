@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Navbar from "../Navbar"
 import "./index.css" 
 
@@ -63,16 +64,20 @@ const Toothwhitening =()=>{
 <div className="teeth-whitening-main-container">
     <div className="teeth-whitening-container">
         <h1 className="teeth-whitening-heading"> Why Choose TechSmiles for Tooth Whitening? </h1>
-        <p className="teeth-whitening-description"> Discoloured teeth can be caused by food and drink, tobacco use, poor oral hygiene, or certain medications. At Tech Smiles, we offer a range of teeth whitening solutions to help you achieve a brighter, whiter smile. We also provide advice on preventing future discoloration. </p> 
-        <p className="teeth-whitening-dental-span-para"> Want a brighter, whiter smile? Explore our teeth whitening solutions. Contact us today! </p> 
+        <ul className="implants-unordered-list-desc">
+            <li> <p className="implants-unordered-list-para"> <span className="implants-unordered-list-span">Expertise:</span> Our dental professionals are experts in cosmetic dentistry, providing top-tier whitening services </p></li>
+            <li> <p className="implants-unordered-list-para"> <span className="implants-unordered-list-span"> Speed: </span> Our treatments are designed to deliver quick results, perfect for those on the go. </p></li>
+            <li> <p className="implants-unordered-list-para"> <span className="implants-unordered-list-span"> Comfort:</span> We prioritize your comfort, ensuring a pleasant experience throughout your visit. </p></li>
+            <li> <p className="implants-unordered-list-para"> <span className="implants-unordered-list-span"> Results:</span> We’re committed to delivering outstanding whitening outcomes that will exceed your expectations.</p></li>
+        </ul> 
     </div>
     <div>
         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874734/unsplash_fmB7IdFjhTM_1_d5dltx.png" className="teeth-whitening-image" alt="teeth-whitening"/> 
     </div>
 </div>
+
 <div className="crown-unordered-list-main-container general-bg">
                 <div className="crown-unordered-list-container">
-                    
                     <h1 className="teeth-exp-heading"> Ready to Brighten Your Smile?  </h1>
                     <h1 className="teeth-exp-heading"> Book Your Whitening Treatment Now! </h1>
                     <p className="teeth-unorderedlist"> Don’t wait to get the radiant smile you’ve always wanted. Book your tooth whitening treatment with us today and take the first step towards a brighter, more confident you. </p>
@@ -83,14 +88,26 @@ const Toothwhitening =()=>{
 
             <div className="fotter-main-container">
                 <div className="fotter-container">
-                    <p className="fotter-item"> About </p> 
-                    <p> Contact us </p> 
-                    <p> Help </p> 
-                    <p> Privacy Policy </p> 
-                    <p> Disclaimer </p>
+                    <Link to="/contact">
+                        <p className="fotter-item"> About </p>
+                    </Link>
+                    <Link to="/contact">
+                        <p className="fotter-item"> Contact us </p> 
+                    </Link> 
+                    <Link to="/contact">
+                        <p className="fotter-item"> Help </p>
+                    </Link>
+                    <Link to="/contact">
+                        <p className="fotter-item"> Privacy Policy </p>
+                    </Link> 
+                    <Link to="/contact">
+                        <p className="fotter-item"> Disclaimer </p>
+                    </Link>
                 </div> 
                 <div>
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" alt="social icon" /> 
+                    <Link to="/contact">
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" alt="social icon" /> 
+                    </Link>
                 </div>
             </div>
 

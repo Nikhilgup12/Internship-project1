@@ -90,7 +90,6 @@ const Implants =()=>{
     </div>
     <div className="implants-container order2">
         <h1 className="implants-heading"> All on 4 Implants: </h1>
-      
         <p className="implants-description"> The All on 4 treatment concept is a groundbreaking solution for full-arch restoration. By strategically placing four implants, we create a foundation for a full set of prosthetic teeth. This technique not only maximizes the use of available bone but also allows for immediate function and aesthetics. </p> 
         <ul className="implants-unordered-list-desc">
             <li> <p className="implants-unordered-list-para"> <span className="implants-unordered-list-span">Discover More </span> about the All on 4 treatment concept </p></li>
@@ -211,14 +210,26 @@ const Implants =()=>{
 
             <div className="fotter-main-container">
                 <div className="fotter-container">
-                    <p className="fotter-item"> About </p> 
-                    <p> Contact us </p> 
-                    <p> Help </p> 
-                    <p> Privacy Policy </p> 
-                    <p> Disclaimer </p>
+                    <Link to="/contact">
+                        <p className="fotter-item"> About </p>
+                    </Link>
+                    <Link to="/contact">
+                        <p className="fotter-item"> Contact us </p> 
+                    </Link> 
+                    <Link to="/contact">
+                        <p className="fotter-item"> Help </p>
+                    </Link>
+                    <Link to="/contact">
+                        <p className="fotter-item"> Privacy Policy </p>
+                    </Link> 
+                    <Link to="/contact">
+                        <p className="fotter-item"> Disclaimer </p>
+                    </Link>
                 </div> 
                 <div>
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" alt="social icon" /> 
+                    <Link to="/contact">
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" alt="social icon" /> 
+                    </Link>
                 </div>
             </div>
 

@@ -9,6 +9,8 @@ import DentalProblems from "./components/DentalProblems"
 import ContactForm from "./components/ContactForm"
 import Toothwhitening from "./components/Toothwhitening"
 import Implants from "./components/Implants"
+import ToothAlign from "./components/ToothAlign"
+import ToothImplants from "./components/ToothImplants"
 import './App.css';
 
 const App =()=>{
@@ -25,6 +27,8 @@ const App =()=>{
         <Route exact path="/dentalprob" component={DentalProblems} />
         <Route exact path="/teeth" component={Toothwhitening} /> 
         <Route exact path="/implants" component={Implants} /> 
+        <Route exact path="/tooth" component={ToothAlign} /> 
+        <Route exact path="/toothimp" component={ToothImplants} /> 
      </Switch>
     </>
   )

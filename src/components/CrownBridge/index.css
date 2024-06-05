@@ -16,9 +16,7 @@
     display: flex; 
     align-items: center; 
     justify-content:space-between; 
-    padding:20px;
-  
-    
+    padding:30px;
 }
 
 @media screen and (max-width: 767px) {
@@ -39,7 +37,7 @@
 
 .crown-image {
     width: 100%; 
-    max-width: 420px;
+    max-width: 450px;
     border-radius: 7px;
 }
 

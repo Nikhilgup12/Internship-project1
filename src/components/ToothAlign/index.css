@@ -8,23 +8,24 @@
     align-items: center;
     min-height: 100vh; 
 } 
-.teeth-whitening-main-container {
+
+.tooth-alignment-main-container {
     width: 100%; 
     display: flex; 
     align-items: center; 
     justify-content: space-between; 
-    padding: 30px;
+    padding: 40px;
 }
 
 @media screen and (max-width: 767px) {
-    .teeth-whitening-main-container {
+    .tooth-alignment-main-container {
         display: flex; 
         flex-direction: column; 
         padding: 10px;
     }
 }
 
-.teeth-whitening-container {
+.tooth-alignment-container {
     display: flex; 
     flex-direction: column;  
     justify-content: center;
@@ -33,13 +34,13 @@
     padding: 30px;
 }
 
-.teeth-whitening-image {
+.tooth-alignment-image {
     width: 100%; 
     max-width: 450px;
     border-radius: 7px;
 } 
 
-.teeth-whitening-heading {
+.tooth-alignment-heading {
     font-family: Poppins; 
     font-size: 35px;
     line-height: 45px;
@@ -47,25 +48,25 @@
     padding-bottom: 10px;
 }
 
-.teeth-whitening-para {
+.tooth-alignment-para {
     font-family: Poppins; 
     font-size: 18px;
     line-height: 50px;
 } 
 
-.teeth-whitening-description {
+.tooth-alignment-description {
     font-family: Poppins; 
     font-size: 18px;
     line-height: 20px;
 } 
 
 @media screen and (max-width: 767px) {
-    .teeth-whitening-container {
+    .tooth-alignment-container {
         max-width: 400px;
         margin-left: 0px;
         padding: 20px;
     }
-    .teeth-whitening-image {
+    .tooth-alignment-image {
         width: 100%;
         max-width: 340px;
     }
@@ -75,43 +76,43 @@
     .order2 {
         order: 0;
     }
-    .teeth-whitening-heading {
+    .tooth-alignment-heading {
         line-height: 27px;
         padding-bottom: 10px;
         font-size: 25px;
     }
-    .teeth-whitening-para {
+    .tooth-alignment-para {
         line-height: 20px;
         padding-bottom: 10px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 990px) {
-    .teeth-whitening-image {
+    .tooth-alignment-image {
         width: 100%; 
         max-width: 600px;
     }
-    .teeth-whitening-container {
+    .tooth-alignment-container {
         padding: 10px;
         margin-left: 0px;
         max-width: 400px;
         padding-left: 20px;
     }
-    .teeth-whitening-main-container {
+    .tooth-alignment-main-container {
         padding: 10px;
     }
-    .teeth-whitening-heading {
+    .tooth-alignment-heading {
         line-height: 27px;
         padding-bottom: 10px;
         font-size: 25px;
     }
-    .teeth-whitening-para {
+    .tooth-alignment-para {
         line-height: 20px;
         padding-bottom: 10px;
     }
 } 
 
-.teeth-whitening-information-container {
+.tooth-alignment-information-container {
     background-color: #A0C1BA; 
     display: flex; 
     flex-direction: column; 
@@ -124,7 +125,7 @@
     background-color: #6F432A;
 }
 
-.teeth-whitening-dental-span-para {
+.tooth-alignment-dental-span-para {
     font-family: Poppins; 
     font-size: 18px;
     line-height: 25px;
@@ -132,7 +133,7 @@
     color: #1E1E1E;
     font-weight: 700;
 }
-.teeth-whitening-dental-para {
+.tooth-alignment-dental-para {
     font-family: Poppins; 
     font-size: 16px;
     line-height: 25px;
@@ -140,44 +141,69 @@
     font-weight:520;
 }
 
-
-.teeth-whitening-unorderedlist {
+.tooth-alignment-unorderedlist {
     color: #FDF9EE; 
     font-family: Poppins; 
     font-size: 20px;
     padding-bottom: 10px;
-    
 } 
 
-.teeth-whitening-exp-heading {
+.tooth-alignment-exp-heading {
     color: #FDF9EE; 
     font-family: Poppins; 
     font-size: 20px;
     padding-top: 20px;
 }  
-.teeth-unorderedlist{
+.tooth-unorderedlist{
     color: #FDF9EE;
     font-family: Poppins; 
     font-size:15px;
     padding-top: 10px;
     padding-bottom:20px;
 } 
-.teeth-exp-heading{
+.tooth-exp-heading{
     color: #FDF9EE; 
     font-family: Poppins; 
     font-size:22px;
     padding-bottom: 10px;
 }
-.teeth-unorderedlist-q{
+.tooth-unorderedlist-q{
     color: #FDF9EE;
     font-family: Poppins; 
     font-size:15px;
-   
-    
 } 
-.teeth-exp-heading-q{
+.tooth-exp-heading-q{
     color: #FDF9EE; 
     font-family: Poppins; 
     font-size:17px;
+    padding-bottom: 10px;
+}
+.tooth-alignment-unordered-list-description {
+    
+    display: flex;
+    flex-direction: column;
+    color:#ffffff;
+    
+}
+
+.tooth-alignment-unordered-list-span {
+    color:#ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+.tooth-alignment-unordered-list-para {
+    color:#ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Poppins;
+    padding-bottom: 6px;
+}
+.tooth-alignments-unordered-heading {
+    font-family: Poppins; 
+    font-size:20px;
+    line-height: 45px;
+    color:#FDF9EE;
     padding-bottom: 10px;
 }

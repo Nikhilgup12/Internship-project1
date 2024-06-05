@@ -106,14 +106,26 @@ const CrownBridge =()=>{
             </div>
             <div className="fotter-main-container">
                 <div className="fotter-container">
-                    <p className="fotter-item"> About </p> 
-                    <p> Contact us </p> 
-                    <p> Help </p> 
-                    <p> Privacy Policy </p> 
-                    <p> Disclaimer </p>
+                    <Link to="/contact">
+                        <p className="fotter-item"> About </p>
+                    </Link>
+                    <Link to="/contact">
+                        <p className="fotter-item"> Contact us </p> 
+                    </Link> 
+                    <Link to="/contact">
+                        <p className="fotter-item"> Help </p>
+                    </Link>
+                    <Link to="/contact">
+                        <p className="fotter-item"> Privacy Policy </p>
+                    </Link> 
+                    <Link to="/contact">
+                        <p className="fotter-item"> Disclaimer </p>
+                    </Link>
                 </div> 
                 <div>
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" alt="social icon" /> 
+                    <Link to="/contact">
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" alt="social icon" /> 
+                    </Link>
                 </div>
             </div>
         </div>

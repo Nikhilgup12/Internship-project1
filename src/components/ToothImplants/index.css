@@ -8,8 +8,7 @@
     align-items: center;
     min-height: 100vh; 
 } 
-
-.implants-main-container {
+.tooth-implants-main-container {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,14 +17,14 @@
 }
 
 @media screen and (max-width: 767px) {
-    .implants-main-container {
+    .tooth-implants-main-container {
         display: flex;
         flex-direction: column;
         padding: 10px;
     }
 }
 
-.implants-container {
+.tooth-implants-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,27 +33,33 @@
     padding: 30px;
 }
 
-.implants-image {
+.tooth-implants-image {
     width: 100%;
     max-width: 450px;
     border-radius: 7px;
 }
 
-.implants-heading {
+.tooth-implants-heading {
     font-family: Poppins;
     font-size: 35px;
     line-height: 40px;
     color: #6F432A;
 }
-
-.implants-para {
+.tooth-implants-header{
+    font-family: Poppins;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #6F432A;
+}
+.tooth-implants-para {
     font-family: Poppins;
     font-size: 18px;
     line-height: 50px;
     font-weight: 700;
 }
 
-.implants-description {
+.tooth-implants-description {
     font-family: Poppins;
     font-size: 18px;
     line-height: 20px;
@@ -62,12 +67,12 @@
 }
 
 @media screen and (max-width: 767px) {
-    .implants-container {
+    .tooth-implants-container {
         max-width: 400px;
         margin-left: 0px;
         padding: 20px;
     }
-    .implants-image {
+    .tooth-implants-image {
         width: 100%;
         max-width: 340px;
     }
@@ -77,43 +82,43 @@
     .order2 {
         order: 0;
     }
-    .implants-heading {
+    .tooth-implants-heading {
         line-height: 27px;
         padding-bottom: 10px;
         font-size: 25px;
     }
-    .implants-para {
+    .tooth-implants-para {
         line-height: 20px;
         padding-bottom: 10px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 990px) {
-    .implants-image {
+    .tooth-implants-image {
         width: 100%;
         max-width: 600px;
     }
-    .implants-container {
+    .tooth-implants-container {
         padding: 10px;
         margin-left: 0px;
         max-width: 400px;
         padding-left: 20px;
     }
-    .implants-main-container {
+    .tooth-implants-main-container {
         padding: 10px;
     }
-    .implants-heading {
+    .tooth-implants-heading {
         line-height: 27px;
         padding-bottom: 10px;
         font-size: 25px;
     }
-    .implants-para {
+    .tooth-implants-para {
         line-height: 20px;
         padding-bottom: 10px;
     }
 }
 
-.implants-information-container {
+.tooth-implants-information-container {
     background-color: #A0C1BA;
     display: flex;
     flex-direction: column;
@@ -126,7 +131,7 @@
     background-color: #6F432A;
 }
 
-.implants-info-button {
+.tooth-implants-info-button {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -134,19 +139,19 @@
     width: 100%;
 }
 
-.implants-booking-button {
+.tooth-implants-booking-button {
     width: 100%;
     max-width: 250px;
 }
 
-.implants-section-image {
+.tooth-implants-section-image {
     padding-right: 30px;
     margin-bottom: 20px;
     width: 100%;
     max-width: 300px;
 }
 
-.implants-bottom-main-container {
+.tooth-implants-bottom-main-container {
     background-color: #FDF9EE;
     display: flex;
     flex-direction: column;
@@ -156,7 +161,7 @@
     padding: 20px;
 }
 
-.implants-bottom-container {
+.tooth-implants-bottom-container {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -165,34 +170,38 @@
     width: 100%;
     max-width: 1100px;
 }
-.bottom-para{
+
+.bottom-para {
     font-family: Poppins;
     font-size: 20px;
     line-height: 28px;
-    color: #1E1E1E; 
+    color: #1E1E1E;
 }
-.botton-span-para{
-    color:#6F432A;
+
+.botton-span-para {
+    color: #6F432A;
     font-family: Poppins;
     font-size: 20px;
     font-weight: bold;
 }
-.implants-unordered-list-desc{
-    padding-top:20px;
+
+.tooth-implants-unordered-list-desc {
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
-    
 }
-.implants-unordered-list-span{
-    color:#1E1E1E;
+
+.tooth-implants-unordered-list-span {
+    color: #1E1E1E;
     font-weight: 700;
-    font-size:18px;
+    font-size: 18px;
     font-family: Poppins;
 }
-.implants-unordered-list-para{
-    color:#1E1E1E;
+
+.tooth-implants-unordered-list-para {
+    color: #1E1E1E;
     font-weight: 500;
-    font-size:16px;
+    font-size: 16px;
     font-family: Poppins;
-    padding-bottom:5px;
+    padding-bottom: 5px;
 }
