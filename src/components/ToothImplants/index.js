@@ -81,25 +81,39 @@ const ToothImplants =()=>{
     </div>
 </div>
 
-<div className="tooth-implants-information-container one">
-    <div className="tooth-implants-info-button">
-        <div>
-            <Link to="/contact">
-                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874376/Frame_39_1_qzj9tv.png" className="tooth-implants-booking-button" alt="know" /> 
-            </Link>
-        </div>
-        <div>
-            <Link to="/contact">
-                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874390/Frame_40_1_kmxiau.png" className="tooth-implants-booking-button" alt="know" />
-            </Link>
-        </div>
-        <div>
-            <Link to="/contact">
-                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874395/Frame_41_1_igoxqt.png" className="tooth-implants-booking-button" alt="know" /> 
-            </Link>
-        </div>
-    </div>
-</div>
+<div className="cosmetic-information-container one">
+                <div className="cosmetic-knowmore-container">
+                    <div className="cosmetic-know-container"> 
+                        <Link to="/contact">
+                            <button className='cosmetic-knowmore-button white-button'> 
+                                <p className='cosmetic-know-para white'> Learn More </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717764062/Vector_1_rrgvpl.png" className='cosmetic-arrow-icon '/> 
+                            </button>
+                        </Link>
+                        <p className="cosmetic-knowmore-para white"> about our tooth whitening process and what to expect.  </p>
+                    </div>
+
+                    <div className="cosmetic-know-container"> 
+                        <Link to="/contact">
+                            <button className='cosmetic-knowmore-button white-button'> 
+                                <p className='cosmetic-know-para white'> Schedule Your Session  </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717764062/Vector_1_rrgvpl.png" className='cosmetic-arrow-icon'/> 
+                            </button>
+                        </Link>
+                        <p className="cosmetic-knowmore-para white"> for a brighter, more confident smile.</p>
+                    </div>
+
+                    <div className="cosmetic-know-container"> 
+                        <Link to="/contact">
+                            <button className='cosmetic-knowmore-button white-button'> 
+                                <p className='cosmetic-know-para white'> Request a Call Back  </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717764062/Vector_1_rrgvpl.png" className='cosmetic-arrow-icon'/> 
+                            </button>
+                        </Link>
+                        <p className="cosmetic-knowmore-para white"> for personalized advice on tooth whitening.  </p>
+                    </div>
+                </div>
+            </div> 
 <div className="tooth-implants-main-container">
     <div className="order1">
         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716869434/unsplash_NtyeAi5JeQU_srkuoc.png" className="tooth-implants-image" alt="dental"/> 
@@ -114,25 +128,39 @@ const ToothImplants =()=>{
         </ul>
     </div>
 </div>
-<div className="tooth-implants-information-container">
-    <div className="tooth-implants-info-button">
-        <div>
-            <Link to="/contact">
-                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716873218/Frame_39_jfvxcu.png" className="cosmetic-booking-button" alt="learn" /> 
-            </Link>
-        </div>
-        <div>
-            <Link to="/contact">
-                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716873213/Frame_40_v8bq08.png" className="cosmetic-booking-button" alt="learn" />
-            </Link>
-        </div>
-        <div>
-            <Link to="/contact">
-                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716873210/Frame_41_jlvtba.png" className="cosmetic-booking-button" alt="learn" /> 
-            </Link>
-        </div>
-    </div>
-</div> 
+<div className="cosmetic-information-container">
+                <div className="cosmetic-knowmore-container">
+                    <div className="cosmetic-know-container"> 
+                        <Link to="/contact">
+                            <button className='cosmetic-knowmore-button'> 
+                                <p className='cosmetic-know-para'> Know more </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                            </button>
+                        </Link>
+                        <p className="cosmetic-knowmore-para"> about our veneers and how they can transform your smile. </p>
+                    </div>
+
+                    <div className="cosmetic-know-container"> 
+                        <Link to="/contact">
+                            <button className='cosmetic-knowmore-button'> 
+                                <p className='cosmetic-know-para'> Book an Appointment  </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                            </button>
+                        </Link>
+                        <p className="cosmetic-knowmore-para"> to consult with our cosmetic dentistry experts.</p>
+                    </div>
+
+                    <div className="cosmetic-know-container"> 
+                        <Link to="/contact">
+                            <button className='cosmetic-knowmore-button'> 
+                                <p className='cosmetic-know-para'> Request a Call Back  </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                            </button>
+                        </Link>
+                        <p className="cosmetic-knowmore-para"> to discuss your veneer options with our team.  </p>
+                    </div>
+                </div>
+            </div> 
 <div className="tooth-implants-main-container">
     <div className="tooth-implants-container">
         <h1 className="tooth-implants-heading"> Bone Grafting for Implants: </h1>

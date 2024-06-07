@@ -46,6 +46,7 @@
     opacity: 0px;
     padding:17px 35px 17px 35px;
     color: #FDF9EE; 
+    cursor: pointer;
 } 
 .dental-heading{
     color: #FDF9EE; 
@@ -98,36 +99,55 @@
     align-items: center;
     justify-content: center; 
     width: 100%;
+    padding:20px;
 } 
 .booking-section-button{
-    margin-top:20px;
     display: flex;
     flex-wrap: wrap; 
     align-items: center;
     justify-content: space-between;
-   width: 100%;
-   max-width: 600px;
-   padding:10px;
+    width: 100%;
+    max-width:800px;
+    padding:10px;
 } 
-.booking-appointment-logo{
+.econsult-button{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #1E1E1E;
+    border-radius: 60px;
+    padding:17px 40px 17px 40px;
+    font-family: Poppins;
     width:100%;
-    max-width: 180px;
-    margin-bottom:20px;
-   
-} 
-.booking-appointment-logos{
-    width:100%;
-    max-width: 180px;
-    margin-bottom:20px;
-    min-height: 50px;
-} 
+    max-width:800px;
+    cursor: pointer;
+}
+.econsult-icon{
+    width: 25px;
+}
+.econsult-para{
+    font-size:18px;
+    padding-left:20px;
+    font-weight: 700;
+    color: #1E1E1E;
+}
+.econsult-paras{
+    font-size:15px;
+    padding-left:20px;
+    font-weight: 700;
+    color: #1E1E1E;
+}
+
+
 @media  screen and (max-width:767px) {
     .booking-section-button{
         max-width: 400px;
         justify-content: center;
     }
-    .booking-appointment-logo{
-        padding-right: 20px;
+    .econsult-button{
+        margin-bottom:20px;
     }
 } 
 
@@ -145,13 +165,42 @@
     flex-wrap: wrap; 
     align-items: center;
     justify-content:center;
-   width: 100%;
-   padding:10px;
+    width: 100%;
+    padding:10px;
+   
 } 
-.checking-image{
-    padding-right: 30px;
-    margin-bottom: 20px;
-} 
+.checking-consult-container{
+    background-color: #A0C1BA;
+    width: 100%;
+    max-width:300px;
+    border-radius: 18px;
+    margin:10px;
+}
+.checking-consult-image{
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.checking-consult-info-image-container{
+    padding:25px;
+    padding-bottom: 40px;
+}
+.consult-image-heading{
+    padding-bottom:5px;
+    font-size:18px;
+    line-height: 25px;
+    color: #1E1E1E;
+    font-weight: 700;
+    font-family: Poppins;
+}
+.consult-image-para{
+    font-size: 14px;
+    font-weight: 400; 
+    font-family: Poppins; 
+
+}
+
+
 @media screen and (max-width:767px){
     .checking-image{
         padding-bottom: 20px;
@@ -249,6 +298,19 @@
     .dental-container{
         max-width:600px;
     }
+    .booking-section-button{
+        max-width:700px;
+    }
+    .econsult-button{
+        padding:12px 17px 12px 17px;
+    }
+    .econsult-paras{
+        font-size:15px;
+        padding-left:20px;
+        font-weight: 700;
+        color: #1E1E1E;
+    }
+
 } 
 /* Carousel Container */
 .carousel-main-container {

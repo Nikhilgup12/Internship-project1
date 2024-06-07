@@ -58,31 +58,42 @@ const CosmeticDentist  =()=>{
                     <p className="cosmetic-description">Dental veneers and laminates are your secret to a celebrity-like smile. These thin, custom-made shells are designed to cover the front surface of your teeth, correcting a variety of dental imperfections such as discoloration, chips, or gaps. Our veneers are crafted from the finest materials to ensure a natural look and a perfect fit.</p> 
                 </div>
             </div>
-            
+           
+
             <div className="cosmetic-information-container">
-                <div 
-                //  initial={{ x: 100, opacity: 0 }}
-                //  whileInView={{ x: 0, opacity: 1 }}
-                //  transition={{ duration: 0.5 }}
-                 
-                className="cossmetic-info-button">
-                    <div>
+                <div className="cosmetic-knowmore-container">
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716873218/Frame_39_jfvxcu.png" className="cosmetic-booking-button" alt="know more"/> 
+                            <button className='cosmetic-knowmore-button'> 
+                                <p className='cosmetic-know-para'> Know more </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para"> about our veneers and how they can transform your smile. </p>
                     </div>
-                    <div>
+
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716873213/Frame_40_v8bq08.png"  className="cosmetic-booking-button" alt="know more"/>
+                            <button className='cosmetic-knowmore-button'> 
+                                <p className='cosmetic-know-para'> Book an Appointment  </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para"> to consult with our cosmetic dentistry experts.</p>
                     </div>
-                    <div>
+
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716873210/Frame_41_jlvtba.png" className="cosmetic-booking-button" alt="know more"/> 
+                            <button className='cosmetic-knowmore-button'> 
+                                <p className='cosmetic-know-para'> Request a Call Back  </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para"> to discuss your veneer options with our team.  </p>
                     </div>
                 </div>
             </div> 
+
             <div className="cosmetic-main-container">
                 <div 
                 //    initial={{ x: -100, opacity: 0 }}
@@ -100,30 +111,41 @@ const CosmeticDentist  =()=>{
                     src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716869441/unsplash_Pc0ToyoR5Xo_meyt77.png" className="cosmetic-image" alt="cosmetic"/> 
                 </div>
             </div>
+
             <div className="cosmetic-information-container one">
-                <div 
-                //  initial={{ x: 100, opacity: 0 }}
-                //  whileInView={{ x: 0, opacity: 1 }}
-                //  transition={{ duration: 0.5 }}
-                 
-                className="cossmetic-info-button">
-                    <div>
+                <div className="cosmetic-knowmore-container">
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874376/Frame_39_1_qzj9tv.png" className="cosmetic-booking-button" alt="learn more" /> 
+                            <button className='cosmetic-knowmore-button white-button'> 
+                                <p className='cosmetic-know-para white'> Learn More </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717764062/Vector_1_rrgvpl.png" className='cosmetic-arrow-icon '/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para white"> about our tooth whitening process and what to expect.  </p>
                     </div>
-                    <div>
+
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874390/Frame_40_1_kmxiau.png"  className="cosmetic-booking-button" alt="learn more"/>
+                            <button className='cosmetic-knowmore-button white-button'> 
+                                <p className='cosmetic-know-para white'> Schedule Your Session  </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717764062/Vector_1_rrgvpl.png" className='cosmetic-arrow-icon'/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para white"> for a brighter, more confident smile.</p>
                     </div>
-                    <div>
+
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874395/Frame_41_1_igoxqt.png" className="cosmetic-booking-button" alt="learn more"/> 
+                            <button className='cosmetic-knowmore-button white-button'> 
+                                <p className='cosmetic-know-para white'> Request a Call Back  </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717764062/Vector_1_rrgvpl.png" className='cosmetic-arrow-icon'/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para white"> for personalized advice on tooth whitening.  </p>
                     </div>
                 </div>
             </div> 
+
             <div className="cosmetic-main-container">
                 <div className="order1">
                     <img 
@@ -143,26 +165,35 @@ const CosmeticDentist  =()=>{
                 </div>
             </div>
             <div className="cosmetic-information-container">
-                <div 
-                //  initial={{ x: 100, opacity: 0 }}
-                //  whileInView={{ x: 0, opacity: 1 }}
-                //  transition={{ duration: 0.5 }}
-                 
-                className="cossmetic-info-button">
-                    <div>
+                <div className="cosmetic-knowmore-container">
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716873218/Frame_39_jfvxcu.png" className="cosmetic-booking-button" alt="know more" /> 
+                            <button className='cosmetic-knowmore-button'> 
+                                <p className='cosmetic-know-para'> Discover More </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para"> about gum depigmentation and its benefits. </p>
                     </div>
-                    <div>
+
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716873213/Frame_40_v8bq08.png"  className="cosmetic-booking-button" alt="know more"/>
+                            <button className='cosmetic-knowmore-button'> 
+                                <p className='cosmetic-know-para'> Book Your Consultation   </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para"> with our skilled dental professionals. </p>
                     </div>
-                    <div>
+
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716873210/Frame_41_jlvtba.png" className="cosmetic-booking-button" alt="know more"/> 
+                            <button className='cosmetic-knowmore-button'> 
+                                <p className='cosmetic-know-para'> Request a Call Back  </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para"> for more information on this transformative treatment.  </p>
                     </div>
                 </div>
             </div> 
@@ -183,30 +214,41 @@ const CosmeticDentist  =()=>{
                     src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716869406/unsplash_1AhGNGKuhR0_glvoc0.png" className="cosmetic-image" alt="cosmetic"/> 
                 </div>
             </div>
+
             <div className="cosmetic-information-container one">
-                <div 
-                //  initial={{ x: 100, opacity: 0 }}
-                //  whileInView={{ x: 0, opacity: 1 }}
-                //  transition={{ duration: 0.5 }}
-                 
-                className="cossmetic-info-button">
-                    <div>
+                <div className="cosmetic-knowmore-container">
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874376/Frame_39_1_qzj9tv.png" className="cosmetic-booking-button" alt="learn more" /> 
+                            <button className='cosmetic-knowmore-button white-button'> 
+                                <p className='cosmetic-know-para white'> Know More </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717764062/Vector_1_rrgvpl.png" className='cosmetic-arrow-icon '/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para white"> about correcting a gummy smile..  </p>
                     </div>
-                    <div>
+
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874390/Frame_40_1_kmxiau.png"  className="cosmetic-booking-button" alt="learn more"/>
+                            <button className='cosmetic-knowmore-button white-button'> 
+                                <p className='cosmetic-know-para white'> Book an Appointment  </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717764062/Vector_1_rrgvpl.png" className='cosmetic-arrow-icon'/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para white"> for a consultation and see the potential of your smile.</p>
                     </div>
-                    <div>
+
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874395/Frame_41_1_igoxqt.png" className="cosmetic-booking-button" alt="learn more"/> 
+                            <button className='cosmetic-knowmore-button white-button'> 
+                                <p className='cosmetic-know-para white'> Request a Call Back  </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717764062/Vector_1_rrgvpl.png" className='cosmetic-arrow-icon'/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para white"> to learn if gummy smile treatment is right for you.  </p>
                     </div>
                 </div>
-            </div>
+            </div> 
+
             <div className="cosmetic-main-container">
                 <div className="order1">
                     <img 
@@ -224,27 +266,37 @@ const CosmeticDentist  =()=>{
                     <p className="cosmetic-description"> Gum depigmentation is a cosmetic procedure that removes dark spots and uneven colouring from the gums, resulting in a more uniform and aesthetically pleasing appearance. Our gentle laser treatment is quick, virtually painless, and provides long-lasting results. </p> 
                 </div>
             </div>
+
             <div className="cosmetic-information-container">
-                <div 
-                //  initial={{ x: 100, opacity: 0 }}
-                //  whileInView={{ x: 0, opacity: 1 }}
-                //  transition={{ duration: 0.5 }}
-                 
-                className="cossmetic-info-button">
-                    <div>
+                <div className="cosmetic-knowmore-container">
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716873218/Frame_39_jfvxcu.png" className="cosmetic-booking-button" alt="know more" /> 
+                            <button className='cosmetic-knowmore-button'> 
+                                <p className='cosmetic-know-para'>Discover More</p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para"> about our gap closure solutions. </p>
                     </div>
-                    <div>
+
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716873213/Frame_40_v8bq08.png"  className="cosmetic-booking-button" alt="know more"/>
+                            <button className='cosmetic-knowmore-button'> 
+                                <p className='cosmetic-know-para'> Book an Appointment  </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para"> to explore your options. </p>
                     </div>
-                    <div>
+
+                    <div className="cosmetic-know-container"> 
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716873210/Frame_41_jlvtba.png" className="cosmetic-booking-button" alt="know more"/> 
+                            <button className='cosmetic-knowmore-button'> 
+                                <p className='cosmetic-know-para'> Request a Call Back  </p> 
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                            </button>
                         </Link>
+                        <p className="cosmetic-knowmore-para"> for guidance on closing gaps between your teeth.  </p>
                     </div>
                 </div>
             </div> 
@@ -266,7 +318,41 @@ const CosmeticDentist  =()=>{
                     src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874734/unsplash_fmB7IdFjhTM_1_d5dltx.png" className="cosmetic-image" alt="cosmetic"/> 
                 </div>
             </div>
+
             <div className="dental-checking-container">
+                <div className="checking-container">
+                    <div className='checking-consult-container cosmetic-checking-consult-container'>
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717765564/unsplash_QA9fRIi6sFw_jj27ls.png" className='checking-consult-image'/>
+                        <div className='checking-consult-info-image-container'>
+                            <h1 className='consult-image-heading'> Expertise</h1>
+                            <p className='consult-image-para'> Our cosmetic dentists are renowned for their skill and attention to detail.  </p>
+                        </div>
+                    </div>
+                    <div className='checking-consult-container'>
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717765558/Image_2_yitakf.svg" className='checking-consult-image'/>
+                        <div className='checking-consult-info-image-container'>
+                            <h1 className='consult-image-heading'> Personalization:  </h1>
+                            <p className='consult-image-para'> We tailor every treatment to meet your individual needs and desires. </p>
+                        </div>
+                    </div>
+                    <div className='checking-consult-container'>
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717765552/Image_3_rvewks.svg" className='checking-consult-image'/>
+                        <div className='checking-consult-info-image-container'>
+                            <h1 className='consult-image-heading'> Comfort</h1>
+                            <p className='consult-image-para'>Your comfort is our top priority, and we strive to make your experience as relaxing as possible.  </p>
+                        </div>
+                    </div>
+                    <div className='checking-consult-container'>
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717765542/Image_4_rqoitg.svg" className='checking-consult-image'/>
+                        <div className='checking-consult-info-image-container'>
+                            <h1 className='consult-image-heading'> Results </h1>
+                            <p className='consult-image-para'> We’re dedicated to delivering stunning results that exceed your expectations.  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+
+            {/* <div className="dental-checking-container">
                 <div 
                 //    initial={{ x: -100, opacity: 0 }}
                 //    whileInView={{ x: 0, opacity: 1 }}
@@ -277,7 +363,7 @@ const CosmeticDentist  =()=>{
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874894/11_otx7ol.png" className="cosmetic-section-image" alt="cosmetic section"/> 
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874889/9_1_b0ovla.png" className="cosmetic-section-image" alt="cosmetic section"/> 
                 </div>
-            </div>  
+            </div>   */}
             <div className="cosmetic-bottom-main-container">
                 <div className="cosmetic-bottom-container">
                     <p 

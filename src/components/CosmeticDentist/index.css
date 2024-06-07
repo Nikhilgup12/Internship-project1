@@ -111,27 +111,84 @@
 } 
 .cosmetic-information-container{
     background-color:#A0C1BA; 
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center; 
     width: 100%;
+    padding:20px;
 } 
 .one{
     background-color: #6F432A;
 }
-.cossmetic-info-button{
+
+.cosmetic-info-button{
     display: flex; 
     flex-wrap: wrap; 
     align-items: center; 
     justify-content: center;
     width: 100%;
     padding:20px;
+    
 } 
-.cosmetic-booking-button{
-    width: 100%; 
-    max-width:250px;
-    cursor: pointer;
+.cosmetic-know-container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100%;
+    max-width: 280px;
+    padding:10px;
+    margin:8px;
+    
+}
+.cosmetic-knowmore-container{
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width:950px;
+    padding:10px;
+  
+} 
+.cosmetic-knowmore-button{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid #1E1E1E;
+    border-radius: 60px;
+    padding:15px 20px 15px 20px;
+    font-family: Poppins;
+    width:100%;
+   cursor: pointer;
+}
+.cosmetic-arrow-icon{
+    padding-left:20px;
+}
+.cosmetic-know-para{
+    font-size:14px;
+    font-weight: 700;
+    color: #1E1E1E;
+    text-align: center;
+    
+    width: 100%;
+    max-width: 180px;
+}
+.cosmetic-knowmore-para{
+    font-size:15px;
+    font-weight: 500;
+    color: #1E1E1E;
+    padding-top: 10px;
+   
+}
+.white{
+    color: #ffffff;
+}
+.white-button{
+    border-color: #ffffff;
 }
 .cosmetic-section-image{
     padding-right: 30px;
@@ -168,4 +225,34 @@
     font-family: Poppins;
     font-size: 20px;
     font-weight: bold;
+}
+@media screen and (max-width:767px){
+    .cosmetic-knowmore-container{
+        display: flex;
+       
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:768px) and (max-width:990px){
+    .cosmetic-know-container{
+        max-width: 200px;
+        align-items: flex-start;
+    }
+    .cosmetic-knowmore-button{
+        padding:5px 10px 5px 10px;
+    }
+    .cosmetic-know-para{
+        font-size: 10px;
+    }
+    .cosmetic-knowmore-para{
+        width: 100%;
+        /* max-width: 200px; */
+        font-size:13px;
+    }
+    
+}
+.cosmetic-checking-consult-container{
+    width: 100%;
+    max-width: 250px;
 }

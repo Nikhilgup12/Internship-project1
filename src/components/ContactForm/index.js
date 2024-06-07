@@ -25,16 +25,39 @@ class ContactForm extends Component{
                             <div className="contact-google-map-image">
                                 <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717153740/Group_1000001067_bv24vj.svg" className="google-image" alt="google-map" /> 
                             </div>
-                            <div className="contact-google-map-image">
-                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717153743/Group_1000001090_ypgjth.svg" className="contact-office-image" alt="office" /> 
+                            <div className="contact-form-clock-container">
+                                <div className="clock-office-container">
+                                    <div className="clock-icon-container">
+                                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717768394/time_1_matfbf.svg" className="clock-icon"/>
+                                    </div>
+                                </div>
+                                <div className="clock--detail-container">
+                                    <p className="clock-timing"> Office Timings</p> 
+                                    <p className="clock-schedule"> Monday - Saturday (9:00am to 5pm) Sunday (Closed)</p>
+                                </div>
                             </div>
-                            <div className="contact-google-map-image">
-                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717153750/Group_1000001091_r0moh3.svg" className="contact-office-image" alt="email" /> 
+                            <div className="contact-form-clock-container">
+                                <div className="clock-office-container">
+                                    <div className="clock-icon-container">
+                                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717768386/pin_1_rw75yl.svg"  className="clock-icon"/>
+                                    </div>
+                                </div>
+                                <div className="clock--detail-container">
+                                    <p className="clock-timing"> Emai Address </p> 
+                                    <p className="clock-schedule">techsmile01@gmail.com </p>
+                                </div>
                             </div>
-                            <div className="contact-google-map-image">
-                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717153757/Group_1000001092_vmpiou.svg" className="contact-office-image" alt="phone" /> 
+                            <div className="contact-form-clock-container">
+                                <div className="clock-office-container">
+                                    <div className="clock-icon-container">
+                                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717768378/telephone_1_1_ciqrhx.svg"  className="clock-icon"/>
+                                    </div>
+                                </div>
+                                <div className="clock--detail-container">
+                                    <p className="clock-timing">Phone Number </p> 
+                                    <p className="clock-schedule"> 98187 91254 </p>
+                                </div>
                             </div>
-                            
                         </div>
                         <div className="contact-form-container">
                             <form className="form" onSubmit={this.onSubmitForm}>

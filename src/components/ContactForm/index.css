@@ -40,7 +40,7 @@
     width: 100%;
     padding:20px;
     margin-top:40px;
-    
+   
 }
 .contact-form-schedule-container{
     display: flex; 
@@ -50,8 +50,7 @@
     width: 100%;
     max-width:360px;
     padding:10px;
-
-   
+  
 }
 .contact-form-container{
     background-color: #FDF9EE;
@@ -72,6 +71,59 @@
     flex-direction:column;
     align-items:flex-start; 
     justify-content:flex-start;
+}
+.contact-form-clock-container{
+    background-color:#FDF9EE;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    max-width: 500px;
+    padding:10px;
+    border: 1px solid #666666;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.clock-office-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width:70px;
+    padding:20px;
+}
+.clock--detail-container{
+    display: flex; 
+    flex-direction: column; 
+    width: 100%;
+    padding-left: 20px;
+}
+.clock-icon-container{
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #6F432A;
+    padding:12px 12px 12px 12px;
+}
+.clock-timing{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Poppins; 
+    color:#1e1e1e;
+}
+.clock-schedule{
+    color: #555555;
+    font-family: Poppins; 
+    font-weight: 400;
+    font-size: 15px;
+    padding-top:5px;
+}
+.clock-icon{
+    
+    max-width: 20px;
 }
 .google-image{
     width: 100%;

@@ -82,30 +82,53 @@ const LandingPage =()=>{
             <div className="booking-appointment-container">
                 <div className="booking-section-button fade-in-right">
                     <Link to="/contact">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800161/Frame_3_aczcu8.png"  className="booking-appointment-logo" alt="landing consult" /> 
+                        <button className='econsult-button'>  
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717742965/Vector_j49jtd.svg" className='econsult-icon'/> 
+                            <p className='econsult-para'> E-Consult </p>
+                        </button>
                     </Link>
                     <Link to="contact">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800171/Frame_6_q1rjdz.png"  className="booking-appointment-logo" alt="landing consult"/> 
+                        <button className='econsult-button'>  
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717742956/pajamas_smile_zyxchc.svg" className='econsult-icon' /> 
+                            <p className='econsult-para'> E-Consult </p>
+                        </button>
                     </Link>
                     <Link to="contact">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800189/Frame_5_2_dcdrnx.png"  className="booking-appointment-logos" alt="landing consult"/>
+                        <button className='econsult-button'>  
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717742950/Vector_1_ggga3d.svg"  className='econsult-icon'/> 
+                            <p className='econsult-paras'> Book Appointment </p>
+                        </button>
                     </Link>
                 </div>
             </div>
+
             <div className="dental-checking-container">
-                <div
-                //  initial={{ x: -100, opacity: 0 }}
-                //  whileInView={{ x: 0, opacity: 1 }}
-                //  transition={{ duration: 0.5 }}
-                className="checking-container">
-                    <img 
-                    src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803054/8_kg8ljm.png" className="checking-image" alt="landing section" />  
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803060/9_uhythc.png"  className="checking-image" alt="landing section"/> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716803068/10_s16pvz.png" className="checking-images" alt="landing section"/> 
+                <div className="checking-container">
+                    <div className='checking-consult-container'>
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717742943/Image_rev2zb.svg" className='checking-consult-image'/>
+                        <div className='checking-consult-info-image-container'>
+                            <h1 className='consult-image-heading'> Your safety is our priority </h1>
+                            <p className='consult-image-para'> 3 step sterilization protocol to be 100% sure that you are completely safe. </p>
+                        </div>
+                    </div>
+                    <div className='checking-consult-container'>
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717742936/Image_1_rwbgis.svg" className='checking-consult-image'/>
+                        <div className='checking-consult-info-image-container'>
+                            <h1 className='consult-image-heading'> We’re there when you need us the most  </h1>
+                            <p className='consult-image-para'> 24X7 personalized assistance through a round-the-clock helpline number. </p>
+                        </div>
+                    </div>
+                    <div className='checking-consult-container'>
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717742919/Young_family_with_child_posing_on_an_abandoned_building_jmwnpa.svg" className='checking-consult-image'/>
+                        <div className='checking-consult-info-image-container'>
+                            <h1 className='consult-image-heading'> Personalized care for you and your family </h1>
+                            <p className='consult-image-para'> Our dedicated patient care executives who know your needs well.  </p>
+                        </div>
+                    </div>
                 </div>
             </div>  
-            <div
-                    className="about-main-container">
+
+            <div className="about-main-container">
                 <div className="about-container">
                     <img
                             // variants={fadeIn("up", 0.2)} 
