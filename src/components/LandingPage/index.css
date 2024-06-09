@@ -481,7 +481,18 @@
     padding-right: 10px;
     color: #1E1E1E;
 }
-
+.fotter-icon-container{
+    /* align-self: flex-end; */
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    /* margin-bottom: 20px; */
+    margin-right: 20px;
+    width: 100%;
+    max-width: 190px;
+    /* min-height: 26px; */
+    /* background-color: antiquewhite; */
+}
 /* Define keyframes for animations */
 @keyframes slideInFromLeft {
     from {

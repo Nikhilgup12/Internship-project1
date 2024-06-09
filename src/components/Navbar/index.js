@@ -38,17 +38,20 @@ class Navbar extends Component{
                 <ul className="nav-icon-list">
                     <li> 
                         <Link to="/contact"> 
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716792164/Frame_5_brxnq4.png" className="book-appointment-logo"/> 
+                            <button className="nav-book-appointment-btn">
+                                <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858561/Vector_omwe16.svg" className="book-appointment-icon"/>
+                                <p className="book-appointment-para"> Book Appointment </p>
+                            </button>
                         </Link>
                     </li> 
                     <li>
                         <Link to="/contact"> 
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716792258/ic_baseline-call_hgiarf.png" /> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716792258/ic_baseline-call_hgiarf.png" className="calling-icon" /> 
                         </Link> 
                     </li> 
                     <li> 
                         <Link to="/contact"> 
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716792250/mingcute_whatsapp-line_zvktiy.png" /> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716792250/mingcute_whatsapp-line_zvktiy.png"  className="calling-icon"/> 
                         </Link>
                     </li>  
                 </ul>

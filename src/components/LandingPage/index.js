@@ -54,29 +54,25 @@ const LandingPage =()=>{
                         <p className="button-request-para"> Request a Call Back </p>
                     </button>
                        </Link>
-
                 </div>
-                <div 
-                //  initial={{ x: 100, opacity: 0 }}
-                //  whileInView={{ x: 0, opacity: 1 }}
-                //  transition={{ duration: 0.5 }}                 
-                className="dental-icon-container fade-in-right">
+                <div className="dental-icon-container fade-in-right">
                     <Link to="/contact">
                         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798342/Group_29_ojuwub.png" className="social-icon" alt="social media"/> 
                     </Link>
                     <Link to="/contact"> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798605/Group_eohm2k.png" className="social-icon-twitter" alt="social media"/> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798605/Group_eohm2k.png" className="social-icon-twitter" alt="social media"/> 
                     </Link>
                     <Link to="/contact"> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798610/linkedin_black.1_gujvxm.png" className="social-icon" alt="social media"/> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798610/linkedin_black.1_gujvxm.png" className="social-icon" alt="social media"/> 
                     </Link>
                     <Link to="/contact"> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798613/youtube_color.1_v6eavf.png" className="social-icon" alt="social media"/> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798613/youtube_color.1_v6eavf.png" className="social-icon" alt="social media"/> 
                     </Link>
                     <Link to="/contact">
                         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716798618/instagram_black.1_nxeb7h.png" className="social-icon" alt="social media"/> 
                     </Link>
                 </div>
+                
             </div>
             
             <div className="booking-appointment-container">
@@ -212,9 +208,21 @@ const LandingPage =()=>{
                         <p className="fotter-item"> Disclaimer </p>
                     </Link>
                 </div> 
-                <div>
+                <div className="fotter-icon-container">
                     <Link to="/contact">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" alt="social icon" /> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858554/Group_29_k6vaae.svg" className="social-icon" alt="social media"/> 
+                    </Link>
+                    <Link to="/contact"> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858547/prime_twitter_msmoy0.svg" className="social-icon-twitter" alt="social media"/> 
+                    </Link>
+                    <Link to="/contact"> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858540/linkedin_black.1_bmghhe.svg" className="social-icon" alt="social media"/> 
+                    </Link>
+                    <Link to="/contact"> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858534/youtube_color.1_x2nw6g.svg" className="social-icon" alt="social media"/> 
+                    </Link>
+                    <Link to="/contact">
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858528/instagram_black.1_cpyusj.svg" className="social-icon" alt="social media"/> 
                     </Link>
                 </div>
             </div>

@@ -352,18 +352,7 @@ const CosmeticDentist  =()=>{
                 </div>
             </div>  
 
-            {/* <div className="dental-checking-container">
-                <div 
-                //    initial={{ x: -100, opacity: 0 }}
-                //    whileInView={{ x: 0, opacity: 1 }}
-                //    transition={{ duration: 0.5 }}
-                className="checking-container">
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874907/8_1_kp4d6h.png" className="cosmetic-section-image" alt="cosmetic section" />  
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874898/10_1_hprbch.png"  className="cosmetic-section-image" alt="cosmetic section"/> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874894/11_otx7ol.png" className="cosmetic-section-image" alt="cosmetic section"/> 
-                    <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716874889/9_1_b0ovla.png" className="cosmetic-section-image" alt="cosmetic section"/> 
-                </div>
-            </div>   */}
+        
             <div className="cosmetic-bottom-main-container">
                 <div className="cosmetic-bottom-container">
                     <p 
@@ -392,9 +381,21 @@ const CosmeticDentist  =()=>{
                         <p className="fotter-item"> Disclaimer </p>
                     </Link>
                 </div> 
-                <div>
+                <div className="fotter-icon-container">
                     <Link to="/contact">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716823946/Frame_21_h2k2dv.png" alt="social icon" /> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858554/Group_29_k6vaae.svg" className="social-icon" alt="social media"/> 
+                    </Link>
+                    <Link to="/contact"> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858547/prime_twitter_msmoy0.svg" className="social-icon-twitter" alt="social media"/> 
+                    </Link>
+                    <Link to="/contact"> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858540/linkedin_black.1_bmghhe.svg" className="social-icon" alt="social media"/> 
+                    </Link>
+                    <Link to="/contact"> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858534/youtube_color.1_x2nw6g.svg" className="social-icon" alt="social media"/> 
+                    </Link>
+                    <Link to="/contact">
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858528/instagram_black.1_cpyusj.svg" className="social-icon" alt="social media"/> 
                     </Link>
                 </div>
             </div>

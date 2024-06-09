@@ -8,6 +8,7 @@
     align-items: center; 
     justify-content: center;
     background-color:#ffffff;
+    min-height: 100vh;
   
 }
 .contact-container{
@@ -71,6 +72,18 @@
     flex-direction:column;
     align-items:flex-start; 
     justify-content:flex-start;
+    border:2px solid #A0C1BA;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    position: relative;
+    
+}
+.map-iframe-image{
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    
 }
 .contact-form-clock-container{
     background-color:#FDF9EE;
@@ -84,6 +97,20 @@
     border: 1px solid #666666;
     border-radius: 10px;
     margin-bottom: 15px;
+}
+.clinic-address-container{
+    background-color:#FDF9EE;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    max-width: 350px;
+    
+    border: 1px solid #666666;
+    border-radius: 10px;
+    position:absolute;
+    margin-top: 50%;
 }
 .clock-office-container{
     display: flex;
@@ -99,6 +126,12 @@
     width: 100%;
     padding-left: 20px;
 }
+.clinic-detail-container{
+    display: flex; 
+    flex-direction: column; 
+    width: 100%;
+    padding-left: 20px;
+}
 .clock-icon-container{
     border-radius: 100%;
     display: flex;
@@ -107,6 +140,9 @@
     justify-content: center;
     background-color: #6F432A;
     padding:12px 12px 12px 12px;
+}
+.clinic-location-map{
+    background-color: #A0C1BA;
 }
 .clock-timing{
     font-weight: 500;
@@ -119,6 +155,19 @@
     font-family: Poppins; 
     font-weight: 400;
     font-size: 15px;
+    padding-top:5px;
+}
+.clinic-timing{
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Poppins; 
+    color:#1e1e1e;
+}
+.clinic-schedule{
+    color: #555555;
+    font-family: Poppins; 
+    font-weight: 400;
+    font-size: 12px;
     padding-top:5px;
 }
 .clock-icon{
