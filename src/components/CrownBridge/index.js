@@ -50,11 +50,14 @@ const CrownBridge =()=>{
                         <h1 className="crown-metal-heading"> Metal Crowns </h1> 
                         <p className="crown-metal-para"> Metal crowns are known for their durability and high strength, making them ideal for restoring back teeth where the chewing pressure is greatest. They require less tooth removal than other types of crowns and rarely chip or break1.</p>
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879359/Frame_37_jpusq5.png" className="crown-metal-learn-image" alt="learn" /> 
-                        </Link>
-                        <Link to="/contact">
+                        <button className='cosmetic-knowmore-button'> 
+                            <p className='cosmetic-know-para'> Know more </p> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                        </button>
+                    </Link>
+                        {/* <Link to="/contact">
                             <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800189/Frame_5_2_dcdrnx.png" className="crown-metal-opp-image" alt="book" /> 
-                        </Link>
+                        </Link> */}
                         </div>
                     </div>
                     <div className="crown-metal-container">
@@ -63,10 +66,10 @@ const CrownBridge =()=>{
                         <h1 className="crown-metal-heading"> Ceramic Crowns </h1> 
                         <p className="crown-metal-para"> Ceramic crowns are popular for their natural color and texture, which closely mimic that of your own teeth. They are highly biocompatible and an excellent choice for front teeth restorations2..</p>
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879359/Frame_37_jpusq5.png" className="crown-metal-learn-image" alt="learn" /> 
-                        </Link>
-                        <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800189/Frame_5_2_dcdrnx.png" className="crown-metal-opp-image" alt="book" /> 
+                        <button className='cosmetic-knowmore-button'> 
+                            <p className='cosmetic-know-para'> Know more </p> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                        </button>
                         </Link>
                         </div>
                     </div>
@@ -76,10 +79,10 @@ const CrownBridge =()=>{
                         <h1 className="crown-metal-heading"> PFM (Porcelain Fused to Metal) Crowns</h1> 
                         <p className="crown-metal-para"> PFM crowns offer the strength of metal with the aesthetic of porcelain. They are a great choice for both front and back teeth, providing a good balance between durability and appearance3. </p>
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879359/Frame_37_jpusq5.png" className="crown-metal-learn-image" alt="learn" /> 
-                        </Link>
-                        <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800189/Frame_5_2_dcdrnx.png" className="crown-metal-opp-image" alt="book" /> 
+                        <button className='cosmetic-knowmore-button'> 
+                            <p className='cosmetic-know-para'> Know more </p> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                        </button>
                         </Link>
                         </div>
                     </div>
@@ -89,10 +92,10 @@ const CrownBridge =()=>{
                         <h1 className="crown-metal-heading">Zirconia Crowns </h1> 
                         <p className="crown-metal-para"> Zirconia crowns are the strongest type of ceramic crowns available. They are highly durable and have excellent biocompatibility. Zirconia crowns are suitable for both front and back teeth restorations4. </p>
                         <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879359/Frame_37_jpusq5.png" className="crown-metal-learn-image" alt="learn" /> 
-                        </Link>
-                        <Link to="/contact">
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716800189/Frame_5_2_dcdrnx.png" className="crown-metal-opp-image" alt="book" /> 
+                        <button className='cosmetic-knowmore-button'> 
+                            <p className='cosmetic-know-para'> Know more </p> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                        </button>
                         </Link>
                         </div>
                     </div>

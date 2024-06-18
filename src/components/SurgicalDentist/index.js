@@ -24,9 +24,15 @@ const SurgicalDentist =()=>{
                 <div className="surgical-dentist-container order2">
                     <h1 className="surgical-dentist-heading"> Wisdom Tooth Extraction </h1>
                     <p className="surgical-dentist-description">Impacted or problematic wisdom teeth can cause pain and lead to infection. Our expert oral surgeons employ minimally invasive techniques to remove wisdom teeth, ensuring a swift and comfortable recovery. </p> 
+                    <Link to="/contact">
+                        <button className='cosmetic-knowmore-button'> 
+                            <p className='cosmetic-know-para'> Know more </p> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                        </button>
+                    </Link>
                 </div>
             </div>
-            <div className="cosmetic-information-container">
+            {/* <div className="cosmetic-information-container">
                 <div className="cosmetic-knowmore-container">
                     <div className="cosmetic-know-container"> 
                         <Link to="/contact">
@@ -58,18 +64,25 @@ const SurgicalDentist =()=>{
                         <p className="cosmetic-knowmore-para"> to discuss your veneer options with our team.  </p>
                     </div>
                 </div>
-            </div> 
+            </div>  */}
             <div className="surgical-dentist-main-container">
                 <div className="surgical-dentist-container">
                     <h1 className="surgical-dentist-heading"> Dental Implants </h1>
                     <p className="surgical-dentist-para"> Crafting Your Dream Smile in Delhi/NCR </p> 
                     <p className="surgical-dentist-description">Dental implants are the gold standard for tooth replacement, providing a permanent solution that mimics the look, feel, and function of natural teeth. Our state-of-the-art implant procedures restore smiles and confidence. </p> 
+                    <Link to="/contact">
+                        <button className='cosmetic-knowmore-button'> 
+                            <p className='cosmetic-know-para'> Know more </p> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                        </button>
+                    </Link>
                 </div>
                 <div>
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716869441/unsplash_Pc0ToyoR5Xo_meyt77.png" className="surgical-dentist-image" alt="surgical" /> 
                 </div>
             </div>
-            <div className="cosmetic-information-container one">
+
+            {/* <div className="cosmetic-information-container one">
                 <div className="cosmetic-knowmore-container">
                     <div className="cosmetic-know-container"> 
                         <Link to="/contact">
@@ -101,7 +114,7 @@ const SurgicalDentist =()=>{
                         <p className="cosmetic-knowmore-para white"> for personalized advice on tooth whitening.  </p>
                     </div>
                 </div>
-            </div> 
+            </div>  */}
 
             <div className="fotter-main-container">
                 <div className="fotter-container">

@@ -47,7 +47,7 @@ const LandingPage =()=>{
                     //    initial="hidden"
                     //    whileInView={"show"} 
                     //    viewport={{once:false,amount:0.7}}
-                       className="dental-heading"> Discover a world where dental excellence meets facial artistry </h1> 
+                       className="dental-heading"> Dental Excellence and Facial Aesthetics in North East Delhi </h1> 
                        <Link to="contact">
                        <button className="dental-request-btn">
                         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716794382/Vector_lisqvz.png" alt="call" /> 
@@ -86,15 +86,10 @@ const LandingPage =()=>{
                     <Link to="contact">
                         <button className='econsult-button'>  
                             <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717742956/pajamas_smile_zyxchc.svg" className='econsult-icon' /> 
-                            <p className='econsult-para'> E-Consult </p>
+                            <p className='econsult-para'> Analyze your smile </p>
                         </button>
                     </Link>
-                    <Link to="contact">
-                        <button className='econsult-button'>  
-                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717742950/Vector_1_ggga3d.svg"  className='econsult-icon'/> 
-                            <p className='econsult-paras'> Book Appointment </p>
-                        </button>
-                    </Link>
+
                 </div>
             </div>
 
@@ -103,15 +98,15 @@ const LandingPage =()=>{
                     <div className='checking-consult-container'>
                         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717742943/Image_rev2zb.svg" className='checking-consult-image'/>
                         <div className='checking-consult-info-image-container'>
-                            <h1 className='consult-image-heading'> Your safety is our priority </h1>
-                            <p className='consult-image-para'> 3 step sterilization protocol to be 100% sure that you are completely safe. </p>
+                            <h1 className='consult-image-heading'> Your <span className='consult-safety-span'> safety  </span>is our priority </h1>
+                            <p className='consult-image-para'> 3 step <span className='consult-safety-span'> sterilization </span> protocol to be 100% sure that you are completely safe. </p>
                         </div>
                     </div>
                     <div className='checking-consult-container'>
                         <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717742936/Image_1_rwbgis.svg" className='checking-consult-image'/>
                         <div className='checking-consult-info-image-container'>
                             <h1 className='consult-image-heading'> We’re there when you need us the most  </h1>
-                            <p className='consult-image-para'> 24X7 personalized assistance through a round-the-clock helpline number. </p>
+                            <p className='consult-image-para'> <span className='consult-safety-span'> 24X7 </span> personalized assistance through a round-the-clock helpline number. </p>
                         </div>
                     </div>
                     <div className='checking-consult-container'>
@@ -134,13 +129,7 @@ const LandingPage =()=>{
                             src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716809273/Group_1_vuhw7m.png" className="about-image" alt="about" /> 
                     <div className="about-info-container">
                         <h1 className="about-heading"> About us  </h1> 
-                        <p className="about-para"> standard dummy text ever since the 1500s, when an unknown printer took a 
-                            galley of type and scrambled it to make a type specimen book. It has 
-                            survived not only five centuries, but also the leap into electronic 
-                            typesetting, remaining essentially unchanged. It was popularised in 
-                            the 1960s with the release of Letraset sheets containing Lorem Ipsum 
-                            passages, and more recently with desktop publishing software like Aldus 
-                            PageMaker including versions of Lorem Ipsum.
+                        <p className="about-para"> Tech Smiles Dentistry & Facial Aesthetics offers comprehensive dental and facial care in Shahdara, northeast Delhi, India. With expert and experienced dental and facial aesthetics specialists, our services include general dentistry and facial aesthetics, aiming to improve your oral health and appearance. Tech Smiles provides the best dental treatment, emphasizing quality, safety, cleanliness, and personalized care. We provide all types of dental treatment including dental implants, emergency dental care, orthodontist, veneers, tooth whitening, and painless root canal treatment among others
                         </p>
                     </div>
                 </div>

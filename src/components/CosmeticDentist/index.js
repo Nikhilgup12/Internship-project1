@@ -54,13 +54,18 @@ const CosmeticDentist  =()=>{
                 //   whileInView="show"
                 //   transition={{ duration: 0.5 }}
                 className="cosmetic-container order2">
-                    <h1 className="cosmetic-heading"> Dental Veneers & Laminates </h1>
+                    <h1 className="cosmetic-heading"> Types of veneers - composite, emax, porcelain  </h1>
                     <p className="cosmetic-description">Dental veneers and laminates are your secret to a celebrity-like smile. These thin, custom-made shells are designed to cover the front surface of your teeth, correcting a variety of dental imperfections such as discoloration, chips, or gaps. Our veneers are crafted from the finest materials to ensure a natural look and a perfect fit.</p> 
+                    <Link to="/contact">
+                        <button className='cosmetic-knowmore-button'> 
+                            <p className='cosmetic-know-para'> Know more </p> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                        </button>
+                    </Link>
                 </div>
             </div>
-           
 
-            <div className="cosmetic-information-container">
+            {/* <div className="cosmetic-information-container">
                 <div className="cosmetic-knowmore-container">
                     <div className="cosmetic-know-container"> 
                         <Link to="/contact">
@@ -92,7 +97,7 @@ const CosmeticDentist  =()=>{
                         <p className="cosmetic-knowmore-para"> to discuss your veneer options with our team.  </p>
                     </div>
                 </div>
-            </div> 
+            </div>  */}
 
             <div className="cosmetic-main-container">
                 <div 
@@ -102,6 +107,12 @@ const CosmeticDentist  =()=>{
                 className="cosmetic-container">
                     <h1 className="cosmetic-heading"> Brilliant Tooth Whitening  </h1>
                     <p className="cosmetic-description"> Our tooth whitening services are here to restore the brilliance of your smile. Using the latest techniques and safest bleaching agents, we can lighten your teeth by several shades, ensuring a bright and attractive smile that stands out in any crowd.</p> 
+                    <Link to="/contact">
+                        <button className='cosmetic-knowmore-button'> 
+                            <p className='cosmetic-know-para'> Know more </p> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                        </button>
+                    </Link>
                 </div>
                 <div>
                     <img 
@@ -112,7 +123,7 @@ const CosmeticDentist  =()=>{
                 </div>
             </div>
 
-            <div className="cosmetic-information-container one">
+            {/* <div className="cosmetic-information-container one">
                 <div className="cosmetic-knowmore-container">
                     <div className="cosmetic-know-container"> 
                         <Link to="/contact">
@@ -144,7 +155,7 @@ const CosmeticDentist  =()=>{
                         <p className="cosmetic-knowmore-para white"> for personalized advice on tooth whitening.  </p>
                     </div>
                 </div>
-            </div> 
+            </div>  */}
 
             <div className="cosmetic-main-container">
                 <div className="order1">
@@ -162,9 +173,15 @@ const CosmeticDentist  =()=>{
                 className="cosmetic-container order2">
                     <h1 className="cosmetic-heading"> Gum Depigmentation </h1>
                     <p className="cosmetic-description">Gum depigmentation is a cosmetic procedure that removes dark spots and uneven colouring from the gums, resulting in a more uniform and aesthetically pleasing appearance. Our gentle laser treatment is quick, virtually painless, and provides long-lasting results.</p> 
+                    <Link to="/contact">
+                        <button className='cosmetic-knowmore-button'> 
+                            <p className='cosmetic-know-para'> Know more </p> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                        </button>
+                    </Link>
                 </div>
             </div>
-            <div className="cosmetic-information-container">
+            {/* <div className="cosmetic-information-container">
                 <div className="cosmetic-knowmore-container">
                     <div className="cosmetic-know-container"> 
                         <Link to="/contact">
@@ -196,7 +213,7 @@ const CosmeticDentist  =()=>{
                         <p className="cosmetic-knowmore-para"> for more information on this transformative treatment.  </p>
                     </div>
                 </div>
-            </div> 
+            </div>  */}
             <div className="cosmetic-main-container">
                 <div 
                 //   initial={{ x: -100, opacity: 0 }}
@@ -205,6 +222,12 @@ const CosmeticDentist  =()=>{
                 className="cosmetic-container">
                     <h1 className="cosmetic-heading"> Gummy Smile Treatment </h1>
                     <p className="cosmetic-description"> A gummy smile can overshadow even the most beautiful teeth. Our gummy smile treatment reshapes the gum line to reveal more of your teeth, creating a balanced and harmonious smile. This  procedure can have a dramatic impact on your overall appearance.</p> 
+                    <Link to="/contact">
+                        <button className='cosmetic-knowmore-button'> 
+                            <p className='cosmetic-know-para'> Know more </p> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                        </button>
+                    </Link>
                 </div>
                 <div>
                     <img 
@@ -215,7 +238,7 @@ const CosmeticDentist  =()=>{
                 </div>
             </div>
 
-            <div className="cosmetic-information-container one">
+            {/* <div className="cosmetic-information-container one">
                 <div className="cosmetic-knowmore-container">
                     <div className="cosmetic-know-container"> 
                         <Link to="/contact">
@@ -247,7 +270,7 @@ const CosmeticDentist  =()=>{
                         <p className="cosmetic-knowmore-para white"> to learn if gummy smile treatment is right for you.  </p>
                     </div>
                 </div>
-            </div> 
+            </div>  */}
 
             <div className="cosmetic-main-container">
                 <div className="order1">
@@ -264,9 +287,15 @@ const CosmeticDentist  =()=>{
                 className="cosmetic-container order2">
                     <h1 className="cosmetic-heading"> Seamless Teeth-Gap Closure  </h1>
                     <p className="cosmetic-description"> Gum depigmentation is a cosmetic procedure that removes dark spots and uneven colouring from the gums, resulting in a more uniform and aesthetically pleasing appearance. Our gentle laser treatment is quick, virtually painless, and provides long-lasting results. </p> 
+                    <Link to="/contact">
+                        <button className='cosmetic-knowmore-button'> 
+                            <p className='cosmetic-know-para'> Know more </p> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                        </button>
+                    </Link>
                 </div>
             </div>
-
+{/* 
             <div className="cosmetic-information-container">
                 <div className="cosmetic-knowmore-container">
                     <div className="cosmetic-know-container"> 
@@ -299,7 +328,7 @@ const CosmeticDentist  =()=>{
                         <p className="cosmetic-knowmore-para"> for guidance on closing gaps between your teeth.  </p>
                     </div>
                 </div>
-            </div> 
+            </div>  */}
             <div className="cosmetic-main-container">
                 <div 
                 //   initial={{ x: -100, opacity: 0 }}
@@ -307,8 +336,13 @@ const CosmeticDentist  =()=>{
                 //   transition={{ duration: 0.5 }}
                 className="cosmetic-container">
                     <h1 className="cosmetic-heading"> Why Choose Tech Smiles for Cosmetic Dentistry?  </h1>
-                    
                     <p className="cosmetic-description"> At Tech Smiles, we combine technical expertise with an artistic touch to provide you with exceptional cosmetic dentistry services. Our team is committed to excellence, and we use only the highest quality materials and state-of-the-art technology to ensure the best outcomes for our patients. </p> 
+                    <Link to="/contact">
+                        <button className='cosmetic-knowmore-button'> 
+                            <p className='cosmetic-know-para'> Know more </p> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                        </button>
+                    </Link>
                 </div>
                 <div>
                     <img 
@@ -363,6 +397,37 @@ const CosmeticDentist  =()=>{
                     className="bottom-para"> <span className="botton-span-para"> Embrace the Art of a Beautiful Smile. </span> Are you ready to transform your smile with Tech Smiles? Contact us today to schedule your appointment and take the first step towards the smile you deserve. </p>
                 </div>
             </div>
+
+            <div className="advanced-technology-container">
+                <div className="technology-container">
+                    <h1 
+                    //   variants={fadeIn("up",0.2)}
+                    //   initial="hidden"
+                    //   whileInView={"show"} 
+                    //   viewport={{once:false,amount:0.7}}
+                    className="technology-heading"> Advanced technology  </h1>
+                    <ul 
+                    //    variants={fadeIn("left",0.2)}
+                    //    initial="hidden"
+                    //    whileInView={"show"} 
+                    //    viewport={{once:false,amount:0.7}}
+                    className="technology-image-container">
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821962/Group_35_omdaot.png" className="technology-image" alt="technology" /> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821978/Group_33_vezqku.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821985/Group_34_suumxj.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716821991/Frame_75_f6x4wd.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822007/Frame_81_a5jpqg.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822019/Group_42_zlmhft.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822047/Frame_78_aowdrw.png" className="technology-image" alt="technology"/> </li> 
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716960861/Group_40_xnfeqo.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822024/Group_41_bg4y9y.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822028/Group_37_i2efmt.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822033/Group_38_ivucnp.png" className="technology-image" alt="technology"/> </li>
+                        <li> <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716822038/Frame_80_pdyuay.png" className="technology-image" alt="technology"/> </li>
+                    </ul>
+                </div>
+            </div> 
+            
             <div className="fotter-main-container">
                 <div className="fotter-container">
                     <Link to="/contact">

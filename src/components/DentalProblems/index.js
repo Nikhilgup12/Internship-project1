@@ -73,7 +73,7 @@ const DentalProblems =()=>{
                     <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716869434/unsplash_NtyeAi5JeQU_srkuoc.png" className="dental-problems-image" alt="dental problem"/> 
                 </div>
                 <div className="dental-problems-container order2">
-                    <h1 className="dental-problems-heading"> Tooth Fracture </h1>
+                    <h1 className="dental-problems-heading"> Broken Tooth </h1>
                     <p className="dental-problems-description"> A tooth fracture can result from chewing hard foods, accidents, or grinding your teeth at night. Depending on the severity, a fractured tooth can be a cosmetic problem or a serious issue leading to pain and tooth loss. At Tech Smiles, we offer treatments ranging from bonding and veneers for minor fractures to root canal therapy and dental crowns for more severe cases. </p> 
                     <p className="dental-problems-dental-para"> Have a fractured tooth? Let us restore your smile. Schedule a visit with us now!  </p> 
                 </div>
