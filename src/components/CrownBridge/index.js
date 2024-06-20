@@ -99,6 +99,19 @@ const CrownBridge =()=>{
                         </Link>
                         </div>
                     </div>
+                    <div className="crown-metal-container">
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879379/Image_1_ndmfgt.png" className="crown-metal-image" alt="crown" /> 
+                        <div className="crwon-metal-info-container">
+                        <h1 className="crown-metal-heading"> Emax Crowns  </h1> 
+                        <p className="crown-metal-para"> Emax crowns are a type of all-ceramic dental crowns known for their superior aesthetics and durability. They are crafted from lithium disilicate, a high-strength ceramic that provides a natural look and feel. </p>
+                        <Link to="/contact">
+                        <button className='cosmetic-knowmore-button'> 
+                            <p className='cosmetic-know-para'> Know more </p> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717752230/Arrow_-_Right_2_cm9ubu.png" className='cosmetic-arrow-icon'/> 
+                        </button>
+                        </Link>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="cosmetic-bottom-main-container">
@@ -107,40 +120,47 @@ const CrownBridge =()=>{
                     <p className="botton-span-crown-para"> Ready to restore your smile? . </p> 
                 </div>
             </div>
-            <div className="fotter-main-container">
-                <div className="fotter-container">
-                    <Link to="/contact">
-                        <p className="fotter-item"> About </p>
-                    </Link>
-                    <Link to="/contact">
-                        <p className="fotter-item"> Contact us </p> 
-                    </Link> 
-                    <Link to="/contact">
-                        <p className="fotter-item"> Help </p>
-                    </Link>
-                    <Link to="/contact">
-                        <p className="fotter-item"> Privacy Policy </p>
-                    </Link> 
-                    <Link to="/contact">
-                        <p className="fotter-item"> Disclaimer </p>
-                    </Link>
-                </div> 
-                <div className="fotter-icon-container">
-                    <Link to="/contact">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858554/Group_29_k6vaae.svg" className="social-icon" alt="social media"/> 
-                    </Link>
-                    <Link to="/contact"> 
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858547/prime_twitter_msmoy0.svg" className="social-icon-twitter" alt="social media"/> 
-                    </Link>
-                    <Link to="/contact"> 
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858540/linkedin_black.1_bmghhe.svg" className="social-icon" alt="social media"/> 
-                    </Link>
-                    <Link to="/contact"> 
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858534/youtube_color.1_x2nw6g.svg" className="social-icon" alt="social media"/> 
-                    </Link>
-                    <Link to="/contact">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858528/instagram_black.1_cpyusj.svg" className="social-icon" alt="social media"/> 
-                    </Link>
+            <div className='fotter-about-container'> 
+                <div className="fotter-main-container">
+                    <div className="fotter-container">
+                        <Link to="/contact">
+                            <p className="fotter-item"> About </p>
+                        </Link>
+                        <Link to="/contact">
+                            <p className="fotter-item"> Contact us </p> 
+                        </Link> 
+                        <Link to="/contact">
+                            <p className="fotter-item"> Help </p>
+                        </Link>
+                        <Link to="/contact">
+                            <p className="fotter-item"> Privacy Policy </p>
+                        </Link> 
+                        <Link to="/contact">
+                            <p className="fotter-item"> Disclaimer </p>
+                        </Link>
+                    </div> 
+
+                    <div className="fotter-icon-container">
+                        <Link to="/contact">
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858554/Group_29_k6vaae.svg" className="social-icon" alt="social media"/> 
+                        </Link>
+                        <Link to="/contact"> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858547/prime_twitter_msmoy0.svg" className="social-icon-twitter" alt="social media"/> 
+                        </Link>
+                        <Link to="/contact"> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858540/linkedin_black.1_bmghhe.svg" className="social-icon" alt="social media"/> 
+                        </Link>
+                        <Link to="/contact"> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858534/youtube_color.1_x2nw6g.svg" className="social-icon" alt="social media"/> 
+                        </Link>
+                        <Link to="/contact">
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858528/instagram_black.1_cpyusj.svg" className="social-icon" alt="social media"/> 
+                        </Link>
+                    </div>
+                </div>
+                <div className="fotter-address-container">
+                    <p className="fotter-item-phone"> Address: 1/10577, near Pipal Chowk, Shahi Mohalla, Mohan Park, Navin Shahdara, Shahdara, Delhi, 110032 </p>
+                    <p className="fotter-item-phone"> Phone: 098187 91254 </p>
                 </div>
             </div>
         </div>

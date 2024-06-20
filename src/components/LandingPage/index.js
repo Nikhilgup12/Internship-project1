@@ -179,45 +179,50 @@ const LandingPage =()=>{
                     </ul>
                 </div>
             </div> 
-            <div className="fotter-main-container">
-                <div className="fotter-container">
-                    <Link to="/contact">
-                        <p className="fotter-item"> About </p>
-                    </Link>
-                    <Link to="/contact">
-                        <p className="fotter-item"> Contact us </p> 
-                    </Link> 
-                    <Link to="/contact">
-                        <p className="fotter-item"> Help </p>
-                    </Link>
-                    <Link to="/contact">
-                        <p className="fotter-item"> Privacy Policy </p>
-                    </Link> 
-                    <Link to="/contact">
-                        <p className="fotter-item"> Disclaimer </p>
-                    </Link>
-                </div> 
-                <div className="fotter-icon-container">
-                    <Link to="/contact">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858554/Group_29_k6vaae.svg" className="social-icon" alt="social media"/> 
-                    </Link>
-                    <Link to="/contact"> 
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858547/prime_twitter_msmoy0.svg" className="social-icon-twitter" alt="social media"/> 
-                    </Link>
-                    <Link to="/contact"> 
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858540/linkedin_black.1_bmghhe.svg" className="social-icon" alt="social media"/> 
-                    </Link>
-                    <Link to="/contact"> 
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858534/youtube_color.1_x2nw6g.svg" className="social-icon" alt="social media"/> 
-                    </Link>
-                    <Link to="/contact">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858528/instagram_black.1_cpyusj.svg" className="social-icon" alt="social media"/> 
-                    </Link>
+            <div className='fotter-about-container'> 
+                <div className="fotter-main-container">
+                    <div className="fotter-container">
+                        <Link to="/contact">
+                            <p className="fotter-item"> About </p>
+                        </Link>
+                        <Link to="/contact">
+                            <p className="fotter-item"> Contact us </p> 
+                        </Link> 
+                        <Link to="/contact">
+                            <p className="fotter-item"> Help </p>
+                        </Link>
+                        <Link to="/contact">
+                            <p className="fotter-item"> Privacy Policy </p>
+                        </Link> 
+                        <Link to="/contact">
+                            <p className="fotter-item"> Disclaimer </p>
+                        </Link>
+                    </div> 
+
+                    <div className="fotter-icon-container">
+                        <Link to="/contact">
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858554/Group_29_k6vaae.svg" className="social-icon" alt="social media"/> 
+                        </Link>
+                        <Link to="/contact"> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858547/prime_twitter_msmoy0.svg" className="social-icon-twitter" alt="social media"/> 
+                        </Link>
+                        <Link to="/contact"> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858540/linkedin_black.1_bmghhe.svg" className="social-icon" alt="social media"/> 
+                        </Link>
+                        <Link to="/contact"> 
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858534/youtube_color.1_x2nw6g.svg" className="social-icon" alt="social media"/> 
+                        </Link>
+                        <Link to="/contact">
+                            <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1717858528/instagram_black.1_cpyusj.svg" className="social-icon" alt="social media"/> 
+                        </Link>
+                    </div>
+                </div>
+                <div className="fotter-address-container">
+                    <p className="fotter-item-phone"> Address: 1/10577, near Pipal Chowk, Shahi Mohalla, Mohan Park, Navin Shahdara, Shahdara, Delhi, 110032 </p>
+                    <p className="fotter-item-phone"> Phone: 098187 91254 </p>
                 </div>
             </div>
-
-         </div>
-         
+        </div>
         </>
     )
 } 

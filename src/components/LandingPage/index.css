@@ -459,26 +459,20 @@
     flex-direction:row; 
     justify-content:space-between; 
     align-items: center;
+   
+    width: 100%; 
+    /* padding:25px;
+    bottom: 0px; */
+} 
+.fotter-about-container{
+    display: flex; 
+    flex-direction:column; 
+    justify-content:space-between; 
+    align-items: center;
     background-color:#A0C1BA; 
     width: 100%; 
     padding:25px;
     bottom: 0px;
-} 
-@media screen and (max-width:767px){
-    .fotter-main-container{
-        display: flex; 
-        flex-direction: column; 
-        
-    }
-    .fotter-container{
-        margin-bottom:20px;
-        display: flex; 
-        flex-wrap: wrap;
-        align-items: center;
-        width: 100%;
-        max-width: 1000px;
-       
-    }
 }
 .fotter-container{
     display: flex; 
@@ -490,7 +484,36 @@
 .fotter-item{
     padding-right: 10px;
     color: #1E1E1E;
+    font-family: Poppins;
+    font-weight: 500;
 }
+.fotter-item-phone{
+    padding-top:10px;
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-weight: 400;
+}
+@media screen and (max-width:767px){
+    .fotter-main-container{
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;
+      
+        
+    }
+    .fotter-container{
+        margin-bottom:20px;
+        display: flex; 
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        /* max-width: 1000px; */
+       
+       
+    }
+
+}
+
 .fotter-icon-container{
     /* align-self: flex-end; */
     display: flex;
@@ -502,6 +525,23 @@
     max-width: 190px;
     /* min-height: 26px; */
     /* background-color: antiquewhite; */
+}
+.fotter-address-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+    margin:20px;
+    width: 100%;
+}
+@media screen and (max-width:767px){
+    .fotter-icon-container{
+      
+        margin-right: 0px;
+        width: 100%;
+        max-width:1000px;
+    }
 }
 /* Define keyframes for animations */
 @keyframes slideInFromLeft {
