@@ -100,7 +100,7 @@ const CrownBridge =()=>{
                         </div>
                     </div>
                     <div className="crown-metal-container">
-                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1716879379/Image_1_ndmfgt.png" className="crown-metal-image" alt="crown" /> 
+                        <img src="https://res.cloudinary.com/di9qg5ka6/image/upload/v1719053400/Untitled_1_v6wzsx.png" className="crown-metal-image" alt="crown" /> 
                         <div className="crwon-metal-info-container">
                         <h1 className="crown-metal-heading"> Emax Crowns  </h1> 
                         <p className="crown-metal-para"> Emax crowns are a type of all-ceramic dental crowns known for their superior aesthetics and durability. They are crafted from lithium disilicate, a high-strength ceramic that provides a natural look and feel. </p>
